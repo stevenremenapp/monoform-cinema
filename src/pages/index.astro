@@ -1,36 +1,51 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Monoform Cinema">
-	<main>
-		<h1 class="text-gradient">Monoform Cinema</h1>
-	</main>
+  <main>
+    <h1 class="text-gradient"><span>Monoform</span><span>Cinema</span></h1>
+    <p>Kalamazoo, MI</p>
+    <p>Coming June 2024</p>
+  </main>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
+  main {
+    margin: 0;
+    padding: 0;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  h1 {
+    font-size: var(--fs-xxl);
+    font-weight: 700;
+    line-height: 0.9;
+    margin-bottom: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+  p {
+    font-size: var(--fs-base);
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 1px;
+
+    &:last-of-type {
+      margin-bottom: 0.3rem;
+    }
+  }
 </style>
