@@ -3,49 +3,143 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Monoform Cinema">
-  <main>
-    <h1 class="text-gradient"><span>Monoform</span><span>Cinema</span></h1>
-    <p>Kalamazoo, MI</p>
-    <p>Coming June 2024</p>
-  </main>
+    <main>
+        <h1 class="text-gradient"><span>Monoform</span><span>Cinema</span></h1>
+        <p class="sub-header">Kalamazoo, MI</p>
+        <p class="sub-header">Coming July 2024</p>
+        <div class="profiles-container">
+            <a
+                href="https://monoformcinema.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-button">Subscribe to our newsletter</a
+            >
+            <div class="icon-container">
+                <a
+                    href="https://letterboxd.com/monoformcinema"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="icon-link"
+                    aria-label="Go to Monoform Cinema's Letterboxed Page"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 512"
+                        class="icon"
+                        ><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            fill="#FFD43B"
+                            d="M521.3 128C586.9 128 640 181.1 640 246.6s-53.1 118.6-118.7 118.6c-42.5 0-79.7-22.3-100.7-55.8c11.4-18.2 18-39.7 18-62.8s-6.6-44.6-18-62.8l0 0 .8-1.2c20.8-32.3 56.8-53.9 97.9-54.6l2 0zM320 128c42.5 0 79.7 22.3 100.7 55.8c-11.4 18.2-18 39.7-18 62.8s6.6 44.6 18 62.8l0 0-.8 1.2c-20.8 32.3-56.8 53.9-97.9 54.6l-2 0c-42.5 0-79.7-22.3-100.7-55.8c11.4-18.2 18-39.7 18-62.8s-6.6-44.6-18-62.8l0 0 .8-1.2c20.8-32.3 56.8-53.9 97.9-54.6l2 0zm-201.3 0c42.5 0 79.7 22.3 100.7 55.8c-11.4 18.2-18 39.7-18 62.8s6.6 44.6 18 62.8l0 0-.8 1.2c-20.8 32.3-56.8 53.9-97.9 54.6l-2 0C53.1 365.1 0 312.1 0 246.6S53.1 128 118.7 128z"
+                        ></path></svg
+                    >
+                </a>
+                <a
+                    href="https://www.instagram.com/monoformcinema"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="icon-link"
+                    aria-label="Go to Monoform Cinema's Instagram Page"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                        class="icon"
+                        ><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                        ></path></svg
+                    >
+                </a>
+            </div>
+        </div>
+    </main>
 </Layout>
 
 <style>
-  main {
-    margin: 0;
-    padding: 0;
-    max-width: calc(100% - 2rem);
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  h1 {
-    font-size: var(--fs-xxl);
-    font-weight: 700;
-    line-height: 0.9;
-    margin-bottom: 0.25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .text-gradient {
-    background-image: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400%;
-    background-position: 0%;
-  }
-  p {
-    font-size: var(--fs-base);
-    font-weight: 500;
-    line-height: 1.15;
-    letter-spacing: 1px;
-
-    &:last-of-type {
-      margin-bottom: 0.3rem;
+    main {
+        margin: 0;
+        padding: 0;
+        max-width: calc(100% - 2rem);
+        color: white;
+        font-size: 20px;
+        text-align: center;
     }
-  }
+    h1 {
+        font-size: var(--fs-xxl);
+        font-weight: 700;
+        line-height: 0.9;
+        margin-bottom: 0.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    .text-gradient {
+        background-image: var(--accent-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 400%;
+        background-position: 0%;
+    }
+    .sub-header {
+        font-size: var(--fs-base);
+        font-weight: 500;
+        line-height: 1.15;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: var(--fs-sm);
+    }
+    .profiles-container {
+        margin-top: 0.75em;
+    }
+    .link-button {
+        font-size: var(--fs-sm);
+        text-decoration: none;
+        border: 1px solid rgb(var(--accent));
+        border-radius: 0.2em;
+        padding: 0.15em 0.5em;
+        background-color: rgb(var(--accent));
+        color: var(--base-dark);
+        font-size: var(--fs-sm);
+    }
+    .icon-container {
+        margin-top: 0.75em;
+    }
+    .icon-link {
+        text-decoration: none;
+    }
+    .icon-link:first-of-type {
+        margin-right: 0.5em;
+    }
+    .icon {
+        width: 2em;
+        height: 2em;
+        fill: rgb(var(--accent));
+    }
+
+    @media only screen and (max-width: 700px) {
+        .profiles-container {
+            margin-top: 0.5em;
+        }
+        .icon-container {
+            margin-top: 0.65em;
+        }
+        .icon {
+            width: 1.5em;
+            height: 1.5em;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .profiles-container {
+            margin-top: 0.25em;
+        }
+        .icon-container {
+            margin-top: 0.45em;
+        }
+
+    }
 </style>
