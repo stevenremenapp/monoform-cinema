@@ -91,10 +91,24 @@ const { description } = Astro.props;
         justify-content: center;
         align-items: center;
     }
+    h1 {
+        font-size: 2rem;
+        font-family: "Archivo Black", sans-serif;
+        line-height: 1.25;
+        margin-bottom: 0.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
     h2 {
         font-family: "Archivo Black", sans-serif;
         font-size: 3rem;
         font-weight: normal;
+    }
+    p {
+        font-size: 20px;
     }
     button {
         border: none;
@@ -107,6 +121,12 @@ const { description } = Astro.props;
     }
     a.button-link:disabled {
         pointer-events: none;
+    }
+
+    @media screen and (max-width: 800px) {
+        h1 {
+            font-size: 1.5rem;
+        }
     }
 
     @media screen and (max-width: 400px) {

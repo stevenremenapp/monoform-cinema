@@ -8,6 +8,7 @@ import Footer from "../components/Footer.astro";
 import NewsletterMarquee from "../components/NewsletterMarquee.astro";
 import PlayingNextMarquee from "../components/PlayingNextMarquee.astro";
 import Header from "../components/Header.astro";
+import HeroSection from "../components/HeroSection.astro";
 ---
 
 <Layout
@@ -17,7 +18,21 @@ import Header from "../components/Header.astro";
     <Header />
     <PlayingNextMarquee />
     <main>
+        <HeroSection />
         <SectionHeader title="Shows" />
+        <p class="show-details">
+            With elements like pre-shows, guest speakers, discussions, and
+            collaborative recommendations, our dream is to create a communal
+            space for film lovers to share in experiential filmgoing. Whether
+            it's a classic you didn't catch in a theater, or something you've
+            never heard of, our hope is to curate films that will move you.
+        </p>
+        <p class="show-details">
+            For the 2024 season, we'll have screenings on the third Wednesday of
+            each month (with two bonus weekend dates in September!) at the
+            Dormouse Theatre located at 1030 Portage Street. Stay tuned for
+            online ticketing information, and we'll see you there!
+        </p>
         {shows.map((show) => <ScreeningDetails {...show} />)}
         <Partners />
     </main>
@@ -34,36 +49,12 @@ import Header from "../components/Header.astro";
         font-size: 20px;
         text-align: center;
     }
-    h1 {
-        font-size: var(--fs-xxl);
-        font-weight: 700;
-        line-height: 0.9;
-        margin-bottom: 0.25rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-transform: uppercase;
+    .show-details {
+        text-align: left;
+        margin-bottom: 25px;
     }
-    .text-gradient {
-        background-image: var(--accent-gradient);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-size: 400%;
-        background-position: 0%;
-    }
-    .sub-header {
-        font-size: var(--fs-base);
-        font-weight: 500;
-        line-height: 1.15;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
-    p {
-        font-size: var(--fs-sm);
-    }
-    .profiles-container {
-        margin-top: 0.75em;
+    .show-details:last-of-type {
+        margin-bottom: 70px;
     }
     .link-button {
         font-size: var(--fs-sm);
@@ -75,19 +66,11 @@ import Header from "../components/Header.astro";
         color: var(--base-dark);
         font-size: var(--fs-sm);
     }
-    .icon-container {
-        margin-top: 0.75em;
-    }
-    .icon-link {
-        text-decoration: none;
-    }
-    .icon-link:first-of-type {
-        margin-right: 0.5em;
-    }
-    .icon {
-        width: 2em;
-        height: 2em;
-        fill: var(--accent);
+
+    @media screen and (max-width: 800px) {
+        p {
+            font-size: 16px;
+        }
     }
 
     @media only screen and (max-width: 700px) {

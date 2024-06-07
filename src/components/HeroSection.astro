@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+import logoWithBeam from "../images/monoform/logos/logo-with-beam.png";
+---
+
+<div class="hero-container">
+    <Image
+        src={logoWithBeam}
+        alt="Monoform Cinema logo of an old projector with the words Monoform Cinema stylized as the beam projected from it."
+    />
+    <h1 class="text">
+        Hello from Monoform Cinema, a new pop-up micro-cinema in Kalamazoo!
+    </h1>
+</div>
+<style>
+    .hero-container {
+        padding: 80px 0;
+        display: flex;
+    }
+    img {
+        flex: 1;
+        max-width: 50%;
+        height: auto;
+        margin-right: 50px;
+    }
+    p {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    @media screen and (max-width: 600px) {
+        .hero-container {
+            padding: 50px 0;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .text {
+            margin-bottom: 50px;
+        }
+        img {
+            margin-right: 0;
+            max-width: 80%;
+        }
+    }
+</style>
