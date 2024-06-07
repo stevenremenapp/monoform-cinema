@@ -24,4 +24,10 @@ const { className } = Astro.props;
     .show-description-row:not(:last-of-type) {
         margin-bottom: 20px;
     }
+    @media screen and (max-width: 550px) {
+        .show-description-row {
+            flex-direction: column;
+            padding: 10px;
+        }
+    }
 </style>

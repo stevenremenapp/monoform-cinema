@@ -59,8 +59,8 @@ if (!images[bannerImageUrl])
         </div>
         <div class="event-details">
             <div class="title">{title}</div>
-            {eventDate.map((date) => <div>{date}</div>)}
-            <div>{eventLocation}</div>
+            {eventDate.map((date) => <div class="event-date">{date}</div>)}
+            <div class="event-location">{eventLocation}</div>
             <div class="event-time">{eventTime}</div>
         </div>
     </div>
@@ -92,7 +92,7 @@ if (!images[bannerImageUrl])
     {
         sponsor && (
             <AccentBorderBox className="show-description-row">
-                <div>Thank you to {sponsor} for adopting this film!</div>
+                <div>Thanks to {sponsor} for adopting this film!</div>
             </AccentBorderBox>
         )
     }
@@ -106,9 +106,10 @@ if (!images[bannerImageUrl])
     }
     .image-container {
         position: relative;
-        flex: 2;
+        flex: 60%;
         max-height: 300px;
         margin-right: 20px;
+        align-self: center;
     }
     .event-month {
         position: absolute;
@@ -130,14 +131,15 @@ if (!images[bannerImageUrl])
     }
     img.movie-banner {
         max-width: 100%;
-        max-height: 100%;
+        height: auto;
     }
     .event-details {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        flex: 1;
+        text-align: left;
+        flex: 40%;
         padding: 10px;
     }
     .title {
@@ -182,9 +184,69 @@ if (!images[bannerImageUrl])
         text-align: left;
     }
     .description {
-        margin-right: 5px;
+        margin-right: 10px;
     }
     .details {
-        margin-left: 5px;
+        margin-left: 10px;
+    }
+    @media screen and (max-width: 800px) {
+        .event-month {
+            top: -25px;
+            left: 15px;
+            font-size: 3rem;
+        }
+        .title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .event-details {
+            padding: 0 10px;
+        }
+        .event-date,
+        .event-location,
+        .event-time {
+            font-size: 1rem;
+        }
+        .event-time {
+            margin-top: 10px;
+        }
+        .actions-row .button-link {
+            font-size: 1.5rem;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .banner-row {
+            flex-direction: column;
+        }
+        .title {
+            text-align: center;
+        }
+        .image-container {
+            max-height: 100%;
+            margin-right: 0;
+        }
+        .event-details {
+            padding: 0;
+            margin: 10px 0;
+            align-items: center;
+        }
+        .actions-row {
+            flex-direction: column;
+            margin: 10px 0 25px 0;
+        }
+        .actions-row .button-link {
+            font-size: 1.5rem;
+            margin: 5px;
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .description {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        .details {
+            margin-left: 0;
+        }
     }
 </style>
