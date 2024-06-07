@@ -1,0 +1,33 @@
+---
+interface Props {
+    className: string;
+}
+
+const { className } = Astro.props;
+---
+
+<div class={`accent-border-box ${className}`}>
+    <slot />
+</div>
+<style>
+    .accent-border-box {
+        background-color: var(--base-dark-accent);
+        box-shadow:
+            2px 2px 0 var(--base-dark),
+            6px 6px 0 var(--accent);
+    }
+    .show-description-row {
+        display: flex;
+        padding: 20px;
+        font-size: 1rem;
+    }
+    .show-description-row:not(:last-of-type) {
+        margin-bottom: 20px;
+    }
+    @media screen and (max-width: 550px) {
+        .show-description-row {
+            flex-direction: column;
+            padding: 10px;
+        }
+    }
+</style>

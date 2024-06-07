@@ -1,0 +1,252 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+import AccentBorderBox from "./AccentBorderBox.astro";
+
+interface Props {
+    eventMonth: string;
+    eventDate: Array<string>;
+    eventLocation: string;
+    eventTime: string;
+    title: string;
+    bannerImageUrl: string;
+    trailerUrl: string;
+    ticketsUrl: string;
+    description: string;
+    year: string;
+    runtime: string;
+    director: Array<string>;
+    writer: Array<string>;
+    cast: Array<string>;
+    sponsor: string;
+}
+
+const {
+    eventMonth,
+    eventDate,
+    eventLocation,
+    eventTime,
+    title,
+    bannerImageUrl,
+    trailerUrl,
+    ticketsUrl,
+    description,
+    year,
+    runtime,
+    director,
+    writer,
+    cast,
+    sponsor,
+} = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/images/movies/*.*"
+);
+if (!images[bannerImageUrl])
+    throw new Error(
+        `"${bannerImageUrl}" does not exist in glob: "src/images/movies/*.*"`
+    );
+---
+
+<div id={eventMonth.toLowerCase()} class="screening-container">
+    <div class="banner-row">
+        <div class="image-container">
+            <span class="event-month">{eventMonth}</span>
+            <Image
+                class="movie-banner"
+                src={images[bannerImageUrl]()}
+                alt={`${title} movie poster.`}
+            />
+        </div>
+        <div class="event-details">
+            <div class="title">{title}</div>
+            {eventDate.map((date) => <div class="event-date">{date}</div>)}
+            <div class="event-location">{eventLocation}</div>
+            <div class="event-time">{eventTime}</div>
+        </div>
+    </div>
+    <div class="actions-row">
+        <a
+            href={trailerUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button-link">Trailer</a
+        >
+        <button disabled class="button-link">Tickets Soon!</button>
+    </div>
+    <AccentBorderBox className="show-description-row">
+        <div class="description">{description}</div>
+        <div class="details">
+            <div>{year}</div>
+            <div>{runtime}</div>
+            <div>
+                {`Director${director.length > 1 ? "s" : ""}: ${director}`}
+            </div>
+            {
+                writer.length ? (
+                    <div>{`Writer${writer.length > 1 ? "s" : ""}: ${writer.join(", ")}`}</div>
+                ) : null
+            }
+            {cast.length ? <div>{`Cast: ${cast.join(", ")}`}</div> : null}
+        </div>
+    </AccentBorderBox>
+    {
+        sponsor && (
+            <AccentBorderBox className="show-description-row">
+                <div>Thanks to {sponsor} for adopting this film!</div>
+            </AccentBorderBox>
+        )
+    }
+</div>
+<style>
+    .screening-container {
+        margin-bottom: 100px;
+    }
+    .banner-row {
+        display: flex;
+    }
+    .image-container {
+        position: relative;
+        flex: 60%;
+        max-height: 300px;
+        margin-right: 20px;
+        align-self: center;
+    }
+    .event-month {
+        position: absolute;
+        top: -35px;
+        left: 25px;
+        font-family: "Archivo Black", sans-serif;
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: var(--base-dark);
+        text-shadow:
+            -2px -2px 0 var(--accent),
+            2px 2px 0 var(--accent),
+            2px -2px 0 var(--accent),
+            -2px 2px 0 var(--accent),
+            0 -2px 0 var(--accent),
+            0 2px 0 var(--accent),
+            2px 0 0 var(--accent),
+            -2px 0 0 var(--accent);
+    }
+    img.movie-banner {
+        max-width: 100%;
+        height: auto;
+    }
+    .event-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+        flex: 40%;
+        padding: 10px;
+    }
+    .title {
+        font-family: "Archivo Black", sans-serif;
+        font-size: 2.5rem;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .event-time {
+        margin-top: 20px;
+    }
+    .actions-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .actions-row .button-link {
+        flex: 1;
+        background-color: var(--accent);
+        border-radius: 40px;
+        text-transform: uppercase;
+        font-family: "Archivo Black", sans-serif;
+        font-size: 2rem;
+        padding: 0.5rem 0;
+        text-decoration: none;
+        color: var(--base-dark);
+    }
+    .actions-row .button-link:first-of-type {
+        margin-right: 5px;
+    }
+    .actions-row .button-link:last-of-type {
+        margin-left: 5px;
+    }
+    .description,
+    .details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+    .description {
+        margin-right: 10px;
+    }
+    .details {
+        margin-left: 10px;
+    }
+    @media screen and (max-width: 800px) {
+        .event-month {
+            top: -25px;
+            left: 15px;
+            font-size: 3rem;
+        }
+        .title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .event-details {
+            padding: 0 10px;
+        }
+        .event-date,
+        .event-location,
+        .event-time {
+            font-size: 1rem;
+        }
+        .event-time {
+            margin-top: 10px;
+        }
+        .actions-row .button-link {
+            font-size: 1.5rem;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .banner-row {
+            flex-direction: column;
+        }
+        .title {
+            text-align: center;
+        }
+        .image-container {
+            max-height: 100%;
+            margin-right: 0;
+        }
+        .event-details {
+            padding: 0;
+            margin: 10px 0;
+            align-items: center;
+        }
+        .actions-row {
+            flex-direction: column;
+            margin: 10px 0 25px 0;
+        }
+        .actions-row .button-link {
+            font-size: 1.5rem;
+            margin: 5px;
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .description {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        .details {
+            margin-left: 0;
+        }
+    }
+</style>

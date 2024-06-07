@@ -1,4 +1,6 @@
 ---
+import "@fontsource/inter";
+import "@fontsource/archivo-black";
 interface Props {
     title: string;
     description: string;
@@ -18,22 +20,26 @@ const { description } = Astro.props;
         <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/apple-touch-icon.png"
+            href="/favicon/apple-touch-icon.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/favicon-32x32.png"
+            href="/favicon/favicon-32x32.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/favicon-16x16.png"
+            href="/favicon/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <link
+            rel="mask-icon"
+            href="/favicon/safari-pinned-tab.svg"
+            color="#5bbad5"
+        />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
 
@@ -47,17 +53,17 @@ const { description } = Astro.props;
 <style is:global>
     :root {
         --base-dark: #010101;
-        --accent: 247, 228, 30;
+        --base-dark-accent: #222222;
+        --accent: #f7e41e;
         /* --accent: 255, 255, 133; */
         /* --accent: 252, 251, 122; */
         /* --accent: 252, 255, 45; */
         /* --accent: 255, 245, 61; */
-        --accent-light: 255, 254, 207;
-        --accent-dark: 49, 10, 101;
+        --accent-light: #fffecf;
         --accent-gradient: linear-gradient(
             45deg,
-            rgb(var(--accent)),
-            rgb(var(--accent-light)) 50%,
+            var(--accent),
+            var(--accent-light) 50%,
             white 90%
         );
         --fs-sm: clamp(0.8rem, 1.03vi + 0.58rem, 1.5rem);
@@ -74,8 +80,10 @@ const { description } = Astro.props;
         box-sizing: border-box;
     }
     html {
-        font-family: system-ui, sans-serif;
+        font-family: "Inter", system-ui, sans-serif;
         background: var(--base-dark);
+        scroll-behavior: smooth;
+        scroll-padding-top: 30px;
     }
     body {
         min-height: 100vh;
@@ -83,5 +91,48 @@ const { description } = Astro.props;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    h1 {
+        font-size: 2rem;
+        font-family: "Archivo Black", sans-serif;
+        line-height: 1.25;
+        margin-bottom: 0.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-family: "Archivo Black", sans-serif;
+        font-size: 3rem;
+        font-weight: normal;
+    }
+    p {
+        font-size: 20px;
+    }
+    button {
+        border: none;
+    }
+    button:not(:disabled):hover {
+        cursor: pointer;
+    }
+    button:disabled {
+        opacity: 70%;
+    }
+    a.button-link:disabled {
+        pointer-events: none;
+    }
+
+    @media screen and (max-width: 800px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        h2 {
+            font-size: 2.5rem;
+        }
     }
 </style>
