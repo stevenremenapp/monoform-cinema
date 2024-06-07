@@ -47,7 +47,7 @@ if (!images[bannerImageUrl])
     );
 ---
 
-<div class="screening-container">
+<div id={eventMonth.toLowerCase()} class="screening-container">
     <div class="banner-row">
         <div class="image-container">
             <span class="event-month">{eventMonth}</span>
@@ -142,7 +142,7 @@ if (!images[bannerImageUrl])
     }
     .title {
         font-family: "Archivo Black", sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: left;
         text-transform: uppercase;
         margin-bottom: 15px;
