@@ -39,7 +39,11 @@ import SectionHeader from "./SectionHeader.astro";
                 rel="noopener noreferrer"
                 title="Kalamazoo Film Society"
             >
-                <Image src={kfsLogo} alt="Kalamazoo Film Society logo." class="kfs-logo" />
+                <Image
+                    src={kfsLogo}
+                    alt="Kalamazoo Film Society logo."
+                    class="kfs-logo"
+                />
             </a>
         </div>
     </div>
@@ -64,5 +68,17 @@ import SectionHeader from "./SectionHeader.astro";
     }
     img.kfs-logo {
         max-width: 110px;
+    }
+    @media screen and (max-width: 550px) {
+        .partners-container {
+            margin-bottom: 60px;
+        }
+        .images-row {
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        .image-container {
+            margin-bottom: 30px;
+        }
     }
 </style>
