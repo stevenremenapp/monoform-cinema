@@ -1,0 +1,68 @@
+---
+import { Image } from "astro:assets";
+import artsCouncilLogo from "../images/partners/arts-council-white-logo.png";
+import dormouseLogo from "../images/partners/dormouse-logo.webp";
+import kfsLogo from "../images/partners/kfs-man-logo.png";
+import SectionHeader from "./SectionHeader.astro";
+---
+
+<div class="partners-container">
+    <SectionHeader title="Partners" />
+    <div class="images-row">
+        <div class="image-container">
+            <a
+                href="https://www.kalamazooarts.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Arts Council of Greater Kalamazoo"
+            >
+                <Image
+                    src={artsCouncilLogo}
+                    alt="Arts Council of Greater Kalamazoo logo."
+                />
+            </a>
+        </div>
+        <div class="image-container">
+            <a
+                href="https://www.dormousetheatre.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Dormouse Theatre"
+            >
+                <Image src={dormouseLogo} alt="Dormouse Theatre logo." />
+            </a>
+        </div>
+        <div class="image-container">
+            <a
+                href="https://www.kalfilmsociety.net/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Kalamazoo Film Society"
+            >
+                <Image src={kfsLogo} alt="Kalamazoo Film Society logo." class="kfs-logo" />
+            </a>
+        </div>
+    </div>
+</div>
+<style>
+    .partners-container {
+        margin-bottom: 100px;
+    }
+    .images-row {
+        display: flex;
+        margin-top: 75px;
+    }
+    .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+    img {
+        max-width: 150px;
+        height: auto;
+    }
+    img.kfs-logo {
+        max-width: 110px;
+    }
+</style>

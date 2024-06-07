@@ -1,0 +1,114 @@
+---
+
+---
+
+<div class="marquee">
+    <ul class="marquee__content">
+        <li>
+            <div class="list-item-container">
+                <span>Playing Next:</span><span class="italics title"
+                    >2001: A Space Odyssey</span
+                >
+                <a href="#">More info</a>
+                <button disabled>Tickets Soon!</button>
+            </div>
+        </li>
+        <li>
+            <div class="list-item-container">
+                <span>Playing Next:</span><span class="italics title"
+                    >2001: A Space Odyssey</span
+                >
+                <a href="#">More info</a>
+                <button disabled>Tickets Soon!</button>
+            </div>
+        </li>
+    </ul>
+    <!-- Mirrors the content above -->
+    <ul class="marquee__content" aria-hidden="true">
+        <li>
+            <div class="list-item-container">
+                <span>Playing Next:</span><span class="italics title"
+                    >2001: A Space Odyssey</span
+                >
+                <a href="#">More info</a>
+                <button disabled>Tickets Soon!</button>
+            </div>
+        </li>
+        <li>
+            <div class="list-item-container">
+                <span>Playing Next:</span><span class="italics title"
+                    >2001: A Space Odyssey</span
+                >
+                <a href="#">More info</a>
+                <button disabled>Tickets Soon!</button>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<style>
+    .marquee {
+        --gap: 14rem;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        user-select: none;
+        gap: var(--gap);
+        background-color: var(--accent);
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 900;
+        padding: 10px 0;
+        color: var(--base-dark);
+    }
+    .marquee__content {
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 100%;
+        gap: var(--gap);
+        animation: scroll 100s linear infinite;
+    }
+    ul {
+        list-style: none;
+    }
+    .list-item-container {
+        display: flex;
+        align-items: center;
+    }
+    .title {
+        margin-left: 8px;
+        margin-right: 12px;
+    }
+    .italics {
+        font-style: italic;
+    }
+    a,
+    button {
+        display: inline-block;
+        color: var(--base-dark);
+        border: 2px solid var(--base-dark);
+        border-radius: 20px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px 10px;
+        font-weight: 900;
+    }
+    a {
+        margin-right: 8px;
+    }
+    button:disabled {
+        background-color: var(--accent);
+    }
+
+    @keyframes scroll {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(calc(-100% - var(--gap)));
+        }
+    }
+</style>
