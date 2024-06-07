@@ -55,9 +55,18 @@ import noBeamCameraLogo from "../images/monoform/logos/white-camera-no-beam.png"
         </div>
         <div class="links-container">
             <ul class="info-links">
-                <li>Upcoming Shows</li>
-                <li>Email Us</li>
-                <li>Donate</li>
+                <li><a href="#shows">Shows</a></li>
+                <li><a href="mailto:monoformcinema@gmail.com">Email us</a></li>
+                <li>
+                    <a
+                        href="https://www.paypal.com/paypalme/monoformcinema"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Donate to Monoform Cinema via Paypal"
+                    >
+                        Donate</a
+                    >
+                </li>
             </ul>
         </div>
         <div class="note">
@@ -114,6 +123,10 @@ import noBeamCameraLogo from "../images/monoform/logos/white-camera-no-beam.png"
         font-size: 1.25rem;
         text-align: center;
     }
+    .info-links li a {
+        text-decoration: none;
+        color: white;
+    }
     .info-links li:not(:last-of-type) {
         margin-right: 25px;
     }
@@ -133,5 +146,45 @@ import noBeamCameraLogo from "../images/monoform/logos/white-camera-no-beam.png"
         font-size: 10rem;
         color: #ffffff;
         opacity: 25%;
+    }
+
+    @media screen and (max-width: 1090px) {
+        .monoform-imprint {
+            bottom: -50px;
+            font-size: 8rem;
+        }
+    }
+    @media screen and (max-width: 890px) {
+        .monoform-imprint {
+            bottom: -40px;
+            font-size: 7rem;
+        }
+    }
+    @media screen and (max-width: 760px) {
+        .monoform-imprint {
+            bottom: -35px;
+            font-size: 6rem;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        footer {
+            margin-top: 60px;
+        }
+        .note {
+            bottom: 50px;
+        }
+        .monoform-imprint {
+            bottom: -30px;
+            font-size: 5rem;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .note {
+            bottom: 30px
+        }
+        .monoform-imprint {
+            bottom: -20px;
+            font-size: 3rem;
+        }
     }
 </style>
