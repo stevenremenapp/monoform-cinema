@@ -1,0 +1,126 @@
+---
+interface Props {
+    ticketsUrl: Array<{ dateString: string; url: string }>;
+}
+
+const { ticketsUrl } = Astro.props;
+---
+
+{
+    ticketsUrl.length === 0 ? (
+        <button disabled class="button-link">
+            Tickets Soon!
+        </button>
+    ) : ticketsUrl.length === 1 ? (
+        <a
+            href={ticketsUrl[0].url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button-link"
+        >
+            Get Tickets!
+        </a>
+    ) : (
+        <div class="multi-date-container">
+            <button class="button-link" id="multi-date-tickets-button">Get Tickets! <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM135 241c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 345c-9.4 9.4-24.6 9.4-33.9 0L135 241z"/></svg></button>
+            <div class="multi-date-buttons-container" id="multi-date-tickets-dropdown-menu">
+                {ticketsUrl.map(ticket => (<a href={ticket.url} target="_blank" rel="noopener noreferrer" class="button-link">{ticket.dateString}</a>))}
+            </div>
+        </div>
+    )
+}
+
+<script>
+    const multiDateTicketButton = document.getElementById("multi-date-tickets-button");
+    const multiTicketDropdownMenu = document.getElementById("multi-date-tickets-dropdown-menu");
+    multiDateTicketButton?.addEventListener("click", () => {
+        multiTicketDropdownMenu?.classList.toggle("show-ticket-options");
+        multiDateTicketButton.classList.toggle("show-ticket-options");
+    })
+</script>
+
+<style>
+    .button-link {
+        flex: 1;
+        background-color: var(--accent);
+        border-radius: 40px;
+        text-transform: uppercase;
+        font-family: "Archivo Black", sans-serif;
+        font-size: 2rem;
+        padding: 0.5rem 0;
+        text-decoration: none;
+        color: var(--base-dark);
+    }
+    .button-link svg {
+        width: 22px;
+        height: auto;
+    }
+    .button-link:first-of-type {
+        margin-right: 5px;
+    }
+    .button-link:last-of-type {
+        margin-left: 5px;
+    }
+
+    .multi-date-container {
+        position: relative;
+        flex: 1;
+        display: inline-block;
+        width: 100%;
+    }
+    .multi-date-container .button-link {
+        width: 100%;
+    }
+    .multi-date-buttons-container {
+        width: calc(100% + 10px);
+        position: absolute;
+        display: none;
+        opacity: 0;
+        flex-direction: column;
+        background-color: var(--base-dark);
+        padding: 10px;
+        border-bottom: 4px solid var(--accent);
+        border-left: 4px solid var(--accent);
+        border-right: 4px solid var(--accent);
+        transition: opacity 300ms ease-in-out;
+    }
+    .multi-date-buttons-container .button-link {
+        margin: 0 0 10px 0;
+    }
+    .multi-date-buttons-container .button-link:last-of-type {
+        margin-bottom: 0;
+    }
+
+    #multi-date-tickets-button svg {
+        transition: transform 300ms ease-in-out;
+    }
+    #multi-date-tickets-button.show-ticket-options svg {
+        transform: rotate(180deg);
+    }
+    .multi-date-buttons-container.show-ticket-options {
+        display: flex;
+        opacity: 1;
+    }
+
+    @media screen and (max-width: 800px) {
+        .button-link {
+            font-size: 1.5rem;
+        }
+        .button-link svg {
+            width: 17px;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .button-link {
+            margin: 5px;
+            width: 100%;
+        }
+        .button-link:last-of-type {
+            margin: 5px 0 0 0;
+        }
+        .multi-date-buttons-container {
+            width: 100%;
+        }
+    }
+</style>

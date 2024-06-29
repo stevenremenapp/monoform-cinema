@@ -2,6 +2,8 @@
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 import AccentBorderBox from "./AccentBorderBox.astro";
+import punishmentParkSticker from "../images/movies/punishment-park-sticker.png";
+import TicketsLinkButton from "./TicketsLinkButton.astro";
 
 interface Props {
     eventMonth: string;
@@ -11,7 +13,7 @@ interface Props {
     title: string;
     bannerImageUrl: string;
     trailerUrl: string;
-    ticketsUrl: string;
+    ticketsUrl: Array<{ dateString: string; url: string }>;
     description: string;
     year: string;
     runtime: string;
@@ -51,6 +53,15 @@ if (!images[bannerImageUrl])
     <div class="banner-row">
         <div class="image-container">
             <span class="event-month">{eventMonth}</span>
+            {
+                title === "Punishment Park" && (
+                    <Image
+                        src={punishmentParkSticker}
+                        class="punishment-park-sticker"
+                        alt="Sticker image noting that Punishment Park has 3 shows, including weekend shows."
+                    />
+                )
+            }
             <Image
                 class="movie-banner"
                 src={images[bannerImageUrl]()}
@@ -71,7 +82,7 @@ if (!images[bannerImageUrl])
             rel="noopener noreferrer"
             class="button-link">Trailer</a
         >
-        <button disabled class="button-link">Tickets Soon!</button>
+        <TicketsLinkButton ticketsUrl={ticketsUrl} />
     </div>
     <AccentBorderBox className="show-description-row">
         <div class="description">{description}</div>
@@ -128,6 +139,14 @@ if (!images[bannerImageUrl])
             0 2px 0 var(--accent),
             2px 0 0 var(--accent),
             -2px 0 0 var(--accent);
+    }
+    .punishment-park-sticker {
+        position: absolute;
+        width: 110px;
+        height: auto;
+        top: -55px;
+        right: 5px;
+        transform: rotate(10deg);
     }
     img.movie-banner {
         max-width: 100%;
