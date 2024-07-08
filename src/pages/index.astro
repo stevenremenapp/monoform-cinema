@@ -22,7 +22,7 @@ import HeroSection from "../components/HeroSection.astro";
         <SectionHeader title="Shows" />
         <p class="show-details">
             With elements like pre-shows, guest speakers, discussions, and
-            collaborative recommendations, our dream is to create a communal
+            collaborative recommendations, our goal is to create a communal
             space for film lovers to share in experiential filmgoing. Whether
             it's a classic you didn't catch in a theater, or something you've
             never heard of, our hope is to build community around film and
@@ -31,8 +31,12 @@ import HeroSection from "../components/HeroSection.astro";
         <p class="show-details">
             For the 2024 season, we'll have screenings on the third Wednesday of
             each month (with two bonus weekend dates in September!) at the
-            Dormouse Theatre located at 1030 Portage Street. Stay tuned for
-            online ticketing information, and we'll see you there!
+            Dormouse Theatre located at 1030 Portage Street. Please scroll down
+            or see our <a
+                href="https://linktr.ee/monoformcinema"
+                target="_blank"
+                rel="noopener noreferrer">Linktree</a
+            > to get your tickets, and we'll see you there!
         </p>
         {shows.map((show) => <ScreeningDetails {...show} />)}
         <Partners />
@@ -66,6 +70,9 @@ import HeroSection from "../components/HeroSection.astro";
         background-color: var(--accent);
         color: var(--base-dark);
         font-size: var(--fs-sm);
+    }
+    a {
+        color: var(--base-light);
     }
 
     @media screen and (max-width: 800px) {
