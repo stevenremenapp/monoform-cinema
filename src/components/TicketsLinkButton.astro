@@ -1,12 +1,18 @@
 ---
 interface Props {
+    eventDate: Array<string>;
     ticketsUrl: Array<{ dateString: string; url: string }>;
 }
 
-const { ticketsUrl } = Astro.props;
+const { eventDate, ticketsUrl } = Astro.props;
 ---
 
 {
+    new Date(eventDate[0]) < new Date() ? (
+        <button disabled class="button-link">
+            That's a wrap!
+        </button>
+    ) :
     ticketsUrl.length === 0 ? (
         <button disabled class="button-link">
             Tickets Soon!
