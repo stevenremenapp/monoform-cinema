@@ -3,6 +3,7 @@ import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 import AccentBorderBox from "./AccentBorderBox.astro";
 import punishmentParkSticker from "../images/movies/punishment-park-sticker.png";
+import peoplesJokerSticker from "../images/movies/peoples-joker-sticker.png";
 import TicketsLinkButton from "./TicketsLinkButton.astro";
 
 interface Props {
@@ -57,8 +58,17 @@ if (!images[bannerImageUrl])
                 title === "Punishment Park" && (
                     <Image
                         src={punishmentParkSticker}
-                        class="punishment-park-sticker"
+                        class="screening-sticker"
                         alt="Sticker image noting that Punishment Park has 3 shows, including weekend shows."
+                    />
+                )
+            }
+            {
+                title === "The People's Joker" && (
+                    <Image
+                        src={peoplesJokerSticker}
+                        class="screening-sticker"
+                        alt="Sticker image noting that The People's Joker is a special additional screening."
                     />
                 )
             }
@@ -140,7 +150,7 @@ if (!images[bannerImageUrl])
             2px 0 0 var(--accent),
             -2px 0 0 var(--accent);
     }
-    .punishment-park-sticker {
+    .screening-sticker {
         position: absolute;
         width: 110px;
         height: auto;

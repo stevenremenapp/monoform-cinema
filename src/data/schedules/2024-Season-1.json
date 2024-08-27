@@ -105,6 +105,28 @@
         "sponsor": ""
     },
     {
+        "eventMonth": "Oct",
+        "eventDate": ["Weds, October 23, 2024"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors 7pm, Show 7:30pm",
+        "title": "The People's Joker",
+        "bannerImageUrl": "/src/images/movies/peoples-joker-banner.jpg",
+        "trailerUrl": "https://youtu.be/9M00AB03S_4?si=FrGnj485-71eN42f",
+        "ticketsUrl": [
+            {
+                "dateString": "Weds, Oct 23",
+                "url": "https://www.dormousetheatre.com/events/the-peoples-joker"
+            }
+        ],
+        "description": "In the absurdist autobiographically-inspired dark comedy, a painfully unfunny aspiring clown (Vera Drew as Joker the Harlequin) grapples with her gender identity while unsuccessfully attempting to join the ranks of Gotham City's sole comedy program in a world where comedy has been outlawed. Uniting with a ragtag team of rejects and misfits, Joker the Harlequin forms an illegal anti-comedy troupe that puts her on a collision course with the devious caped crusader controlling the city.",
+        "year": "2022",
+        "runtime": "1h 32min",
+        "director": ["Vera Drew"],
+        "writer": ["Vera Drew", "Bri LeRose"],
+        "cast": ["Vera Drew", "Lynn Downey", "Kane Distler", "Nathan Faustyn"],
+        "sponsor": ""
+    },
+    {
         "eventMonth": "Nov",
         "eventDate": ["Weds, November 20, 2024"],
         "eventLocation": "Dormouse Theatre",
