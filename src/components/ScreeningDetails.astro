@@ -117,6 +117,51 @@ if (!images[bannerImageUrl])
             </AccentBorderBox>
         )
     }
+    {
+        title === "Punishment Park" && (
+            <AccentBorderBox className="show-description-row africans-with-mainframes">
+                <div class="africans-with-mainframes-poster-container">
+                    <Image
+                        class="africans-with-mainframes-poster"
+                        src={images[
+                            "/src/images/movies/africans-with-mainframes-poster.jpg"
+                        ]()}
+                        alt={`${title} movie poster.`}
+                    />
+                </div>
+                <div class="details africans-with-mainframes">
+                    <div>
+                        All three of our <i>Punishment Park</i> shows will be
+                        preceded by a screening of Kima Hibbert's 2023 short
+                        film, <i>Africans With Mainframes</i>. We love this
+                        short film and are beyond excited to share it with
+                        everyone. Kima was directly inspired by Peter Watkins
+                        and <i>Punishment Park</i> in particular in the making
+                        of this film, which makes this the perfect context to
+                        see it. Thanks so much to Kima for allowing us to screen
+                        it! This is the only place you can see it currently
+                        because it has not been released widely yet.
+                    </div>
+                    <div>
+                        What if electronic music was created by Black
+                        sharecroppers in the American South and Kraftwerk was
+                        actually a psyop? "Inspired by the genre-less works of
+                        Guy Maddin, Peter Watkins, and others, I explore a big
+                        idea with a sense of levity." — Kima Hibbert
+                    </div>
+                    <a
+                        href="https://www.lecinemaclub.com/archives/africans-with-mainframes/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button-link"
+                    >
+                        Read more about Kima and <i>Africans With Mainframes</i>{" "}
+                        here.
+                    </a>
+                </div>
+            </AccentBorderBox>
+        )
+    }
 </div>
 <style>
     .screening-container {
@@ -161,6 +206,17 @@ if (!images[bannerImageUrl])
     img.movie-banner {
         max-width: 100%;
         height: auto;
+    }
+    .africans-with-mainframes-poster-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    img.africans-with-mainframes-poster {
+        max-height: 325px;
+        width: auto;
+        max-width: 100%;
     }
     .event-details {
         display: flex;
@@ -218,6 +274,9 @@ if (!images[bannerImageUrl])
     }
     .details {
         margin-left: 10px;
+    }
+    .details.africans-with-mainframes > div {
+        margin-bottom: 10px;
     }
     @media screen and (max-width: 800px) {
         .event-month {
@@ -277,6 +336,10 @@ if (!images[bannerImageUrl])
         }
         .details {
             margin-left: 0;
+        }
+        .africans-with-mainframes-poster-container {
+            margin-bottom: 20px;
+            margin-right: 0;
         }
     }
 </style>
