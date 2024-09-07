@@ -95,7 +95,12 @@
         "title": "Possession",
         "bannerImageUrl": "/src/images/movies/possession-banner.png",
         "trailerUrl": "https://youtu.be/Ah4Z1yIAoFM?si=EuMLsKNbqK_j9Uro",
-        "ticketsUrl": [],
+        "ticketsUrl": [
+            {
+                "dateString": "Weds, Oct 16",
+                "url": "https://www.dormousetheatre.com/events/possession"
+            }
+        ],
         "description": "Banned upon its original release in 1981, Andrzej Żuławski's stunningly choreographed nightmare of a marriage unraveling is an experience unlike any other. Professional spy Mark (Sam Neill) returns to his West Berlin home to find his wife Anna (Isabelle Adjani, in a role that earned her Best Actress at Cannes) insistent on a divorce. As Anna's frenzied behavior becomes ever more alarming, Mark discovers a truth far more sinister than his wildest suspicions. With its pulsating score, visceral imagery, and some of the most haunting performances ever captured on screen, Possession is cinematic delirium at its most intoxicating.",
         "year": "1981",
         "runtime": "2h 4min",
@@ -134,7 +139,12 @@
         "title": "Reveries & Reveries: Going Deeper",
         "bannerImageUrl": "/src/images/movies/reveries-banner.png",
         "trailerUrl": "https://youtu.be/W1DOHtQe5D0?si=8r8YEZghTQAl0eG_",
-        "ticketsUrl": [],
+        "ticketsUrl": [
+            {
+                "dateString": "Weds, Nov 20",
+                "url": "https://www.dormousetheatre.com/events/reveries-reveries-going-deeper-film-screening"
+            }
+        ],
         "description": "Reveries: Behind dark sunglasses, two mysterious drifters share their latest collection of thoughts, stories, and strange memories.\n\nReveries: Going Deeper: In a dystopian society, two mysterious drifters transmit pirate radio broadcasts from their underground bunker, journeying deep into their own minds…deeper than they've ever been before.",
         "year": "2018 & 2020",
         "runtime": "1h 46min",
@@ -157,7 +167,12 @@
         "title": "Tangerine",
         "bannerImageUrl": "/src/images/movies/tangerine-banner.png",
         "trailerUrl": "https://youtu.be/ALSwWTb88ZU?si=g34fNhAjifilsoKN",
-        "ticketsUrl": [],
+        "ticketsUrl": [
+            {
+                "dateString": "Weds, Dec 18",
+                "url": "https://www.dormousetheatre.com/events/tangerine-film-screening"
+            }
+        ],
         "description": "It's Christmas Eve in Tinseltown and Sin-Dee is back on the block. Upon hearing that her pimp boyfriend hasn't been faithful during the 28 days she was locked up, Sin-Dee and her best friend, Alexandra, embark on a mission to get to the bottom of the scandalous rumor. Their odyssey leads them through various subcultures of Los Angeles, including an Armenian family dealing with their own repercussions of infidelity.",
         "year": "2015",
         "runtime": "1h 28min",
