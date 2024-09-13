@@ -5,10 +5,12 @@ interface Props {
 }
 
 const { eventDate, ticketsUrl } = Astro.props;
+const lastScreeningDatePlusOneDay = new Date(eventDate[eventDate.length - 1]);
+lastScreeningDatePlusOneDay.setDate(lastScreeningDatePlusOneDay.getDate() + 1);
 ---
 
 {
-    new Date(eventDate[0]) < new Date() ? (
+    lastScreeningDatePlusOneDay < new Date() ? (
         <button disabled class="button-link">
             That's a wrap!
         </button>
