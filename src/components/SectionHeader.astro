@@ -1,33 +1,66 @@
 ---
 interface Props {
     title: string;
+    className?: string;
 }
 
-const { title } = Astro.props;
+const { title, className } = Astro.props;
 ---
 
-<div class="header-container">
-    <h2 id={title.toLowerCase()}>{title}</h2>
-    <div class="dots-container">
-        <div class="dots-shadow"></div>
-        <div class="dots"></div>
-    </div>
+<div
+    class={`header-container ${className ?? ""}`}
+    id={title.toLowerCase().split(" ").join("-")}
+>
+    <h2 class="visually-hidden">{title}</h2>
+    <h2 aria-hidden="true">
+        {
+            title.split(" ").map((titleWord, index) => {
+                return (
+                    <span
+                        class={
+                            index + 1 === title.split(" ").length
+                                ? "last-title-word-container"
+                                : "title-word-container"
+                        }
+                    >
+                        <span class="title-word">{titleWord}</span>
+                        {index + 1 === title.split(" ").length ? (
+                            <div aria-hidden="true" class="dots-container">
+                                <div class="dots-shadow" />
+                                <div class="dots" />
+                            </div>
+                        ) : null}
+                    </span>
+                );
+            })
+        }
+    </h2>
 </div>
 <style>
     .header-container {
-        display: flex;
-        align-items: baseline;
-        box-sizing: border-box;
         margin-bottom: 25px;
     }
+    .header-container.past-shows {
+        margin-bottom: 70px;
+    }
     h2 {
+        display: flex;
         margin: 0;
-        padding-right: 10px;
-        white-space: nowrap;
+        text-align: left;
         text-transform: uppercase;
         color: var(--accent);
         text-shadow: 2px 2px 0 #555555;
         user-select: none;
+    }
+    .title-word {
+        padding-right: 10px;
+    }
+    .last-title-word-container {
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 1;
+        align-items: baseline;
+        box-sizing: border-box;
     }
     .dots-container {
         position: relative;
@@ -47,5 +80,21 @@ const { title } = Astro.props;
         bottom: 0;
         left: 0;
         border-bottom: 8px dotted var(--accent);
+    }
+
+    @media screen and (max-width: 800px) {
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+    @media screen and (max-width: 520px) {
+        h2 {
+            font-size: 2.15rem;
+        }
+    }
+    @media screen and (max-width: 460px) {
+        h2 {
+            display: block;
+        }
     }
 </style>

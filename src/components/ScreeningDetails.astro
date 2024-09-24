@@ -50,7 +50,7 @@ if (!images[bannerImageUrl])
     );
 ---
 
-<div id={eventMonth.toLowerCase()} class="screening-container">
+<div id={title.toLowerCase().split(" ").join("-")} class="screening-container">
     <div class="banner-row">
         <div class="image-container">
             <span class="event-month">{eventMonth}</span>

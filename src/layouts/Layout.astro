@@ -113,6 +113,16 @@ const { description } = Astro.props;
     a.button-link:disabled {
         pointer-events: none;
     }
+    .visually-hidden {
+        clip: rect(0 0 0 0);
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
 
     @media screen and (max-width: 800px) {
         h1 {

@@ -9,6 +9,20 @@ import NewsletterMarquee from "../components/NewsletterMarquee.astro";
 import PlayingNextMarquee from "../components/PlayingNextMarquee.astro";
 import Header from "../components/Header.astro";
 import HeroSection from "../components/HeroSection.astro";
+
+const showFilterFn = (isUpcoming: boolean) =>
+    shows.filter((show) => {
+        const lastScreeningDatePlusOneDay = new Date(
+            show.eventDate[show.eventDate.length - 1]
+        );
+        lastScreeningDatePlusOneDay.setDate(
+            lastScreeningDatePlusOneDay.getDate() + 1
+        );
+
+        return isUpcoming
+            ? lastScreeningDatePlusOneDay >= new Date()
+            : lastScreeningDatePlusOneDay < new Date();
+    });
 ---
 
 <Layout
@@ -19,26 +33,30 @@ import HeroSection from "../components/HeroSection.astro";
     <PlayingNextMarquee />
     <main>
         <HeroSection />
-        <SectionHeader title="Shows" />
+        <SectionHeader title="Upcoming Shows" />
         <p class="show-details">
-            With elements like pre-shows, guest speakers, discussions, and
-            collaborative recommendations, our goal is to create a communal
-            space for film lovers to share in experiential filmgoing. Whether
-            it's a classic you didn't catch in a theater, or something you've
-            never heard of, our hope is to build community around film and
-            curate films that will move you.
+            With elements like pre-shows, collaborative recommendations,
+            after-film discussion, and occasional short films, our goal is to
+            create a communal space for film lovers to share in experiential
+            filmgoing. Whether it's a classic you didn't catch in a theater, or
+            something you've never heard of, our hope is to build community
+            around film and curate films that will move you.
         </p>
         <p class="show-details">
-            For the 2024 season, we'll have screenings on the third Wednesday of
-            each month (with two bonus weekend dates in September!) at the
-            Dormouse Theatre located at 1030 Portage Street. Please scroll down
-            or see our <a
+            For the 2024 season, we'll have regular screenings on the third
+            Wednesday of each month at the Dormouse Theatre located at 1030
+            Portage Street. When possible we have additional screenings, such as
+            the <i>Punishment Park</i> weekend shows and <i
+                >The People's Joker</i
+            > on October 23! Please scroll down or see our <a
                 href="https://linktr.ee/monoformcinema"
                 target="_blank"
                 rel="noopener noreferrer">Linktree</a
             > to get your tickets, and we'll see you there!
         </p>
-        {shows.map((show) => <ScreeningDetails {...show} />)}
+        {showFilterFn(true).map((show) => <ScreeningDetails {...show} />)}
+        <SectionHeader title="Past Shows" className="past-shows" />
+        {showFilterFn(false).map((show) => <ScreeningDetails {...show} />)}
         <Partners />
     </main>
     <NewsletterMarquee />
