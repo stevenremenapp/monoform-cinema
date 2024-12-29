@@ -9,8 +9,8 @@ import SectionHeader from "./SectionHeader.astro";
 <div class="partners-container">
     <SectionHeader title="Partners" />
     <p>
-        Support provided by the Arts Fund of Kalamazoo County, a program of the
-        Arts Council of Greater Kalamazoo.
+        Support provided by the Kalamazoo Artistic Development Initiative, a
+        program of the Arts Council of Greater Kalamazoo.
     </p>
     <div class="images-row">
         <div class="image-container">
@@ -56,9 +56,6 @@ import SectionHeader from "./SectionHeader.astro";
     .partners-container {
         margin-bottom: 80px;
     }
-    p {
-        font-size: 1rem;
-    }
     .images-row {
         display: flex;
         margin-top: 40px;
@@ -75,6 +72,11 @@ import SectionHeader from "./SectionHeader.astro";
     }
     img.kfs-logo {
         max-width: 110px;
+    }
+    @media screen and (max-width: 800px) {
+        p {
+            font-size: 16px;
+        }
     }
     @media screen and (max-width: 550px) {
         .partners-container {

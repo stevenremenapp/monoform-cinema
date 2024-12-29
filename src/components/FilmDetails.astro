@@ -1,0 +1,39 @@
+---
+interface Props {
+    film: {
+        title?: string;
+        year: string;
+        runtime: string;
+        director: Array<string>;
+        writer: Array<string>;
+        cast: Array<string>;
+        composer: Array<string>;
+    };
+}
+
+const {
+    film: { title, year, runtime, director, writer, cast, composer },
+} = Astro.props;
+---
+
+<div class="film-details">
+    {title ? <i>{title}</i> : null}
+    <div>{year}</div>
+    <div>{runtime}</div>
+    <div>
+        {`Director${director.length > 1 ? "s" : ""}: ${director}`}
+    </div>
+    {
+        writer.length ? (
+            <div>{`Writer${writer.length > 1 ? "s" : ""}: ${writer.join(", ")}`}</div>
+        ) : null
+    }
+    {composer.length ? <div>{`Music by: ${composer.join(", ")}`}</div> : null}
+    {cast.length ? <div>{`Cast: ${cast.join(", ")}`}</div> : null}
+</div>
+
+<style>
+    .film-details:not(:first-of-type) {
+        margin-top: 20px;
+    }
+</style>

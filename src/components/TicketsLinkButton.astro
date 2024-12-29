@@ -15,7 +15,7 @@ lastScreeningDatePlusOneDay.setDate(lastScreeningDatePlusOneDay.getDate() + 1);
             That's a wrap!
         </button>
     ) :
-    ticketsUrl.length === 0 ? (
+    ticketsUrl.length === 0 || ticketsUrl.length === 1 && !ticketsUrl[0].url ? (
         <button disabled class="button-link">
             Tickets Soon!
         </button>
@@ -58,6 +58,7 @@ lastScreeningDatePlusOneDay.setDate(lastScreeningDatePlusOneDay.getDate() + 1);
         padding: 0.5rem 0;
         text-decoration: none;
         color: var(--base-dark);
+        text-align: center;
     }
     .button-link svg {
         width: 22px;

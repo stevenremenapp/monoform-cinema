@@ -82,6 +82,13 @@ const { description } = Astro.props;
         justify-content: center;
         align-items: center;
     }
+    main {
+        margin: 0;
+        padding: 0 40px;
+        max-width: 950px;
+        color: var(--base-light);
+        font-size: 20px;
+    }
     h1 {
         font-size: 2rem;
         font-family: "Archivo Black", sans-serif;
@@ -127,6 +134,12 @@ const { description } = Astro.props;
     @media screen and (max-width: 800px) {
         h1 {
             font-size: 1.5rem;
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        main {
+            padding: 0 20px;
         }
     }
 

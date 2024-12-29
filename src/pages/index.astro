@@ -1,7 +1,7 @@
 ---
 import ScreeningDetails from "../components/ScreeningDetails.astro";
 import Layout from "../layouts/Layout.astro";
-import shows from "../data/schedules/2024-Season-1.json";
+import shows from "../data/schedules/2025-season-2-side-a.json";
 import SectionHeader from "../components/SectionHeader.astro";
 import Partners from "../components/Partners.astro";
 import Footer from "../components/Footer.astro";
@@ -27,35 +27,45 @@ const showFilterFn = (isUpcoming: boolean) =>
 
 <Layout
     title="Monoform Cinema | Kalamazoo, MI"
-    description="Kalamazoo's new pop-up micro-cinema. Come to our monthly shows, every third Wednesday at The Dormouse Theatre."
+    description="Kalamazoo's new pop-up micro-cinema. Come to our monthly shows, every second Thursday at The Dormouse Theatre."
 >
     <Header />
     <PlayingNextMarquee />
     <main>
         <HeroSection />
         <SectionHeader title="Upcoming Shows" />
-        <p class="show-details">
-            With elements like pre-shows, collaborative recommendations,
-            after-film discussion, and occasional short films, our goal is to
-            create a communal space for film lovers to share in experiential
-            filmgoing. Whether it's a classic you didn't catch in a theater, or
-            something you've never heard of, our hope is to build community
-            around film and curate films that will move you.
-        </p>
-        <p class="show-details">
-            For the 2024 season, we'll have regular screenings on the third
-            Wednesday of each month at the Dormouse Theatre located at 1030
-            Portage Street. When possible we have additional screenings, such as
-            the <i>Punishment Park</i> weekend shows and <i
-                >The People's Joker</i
-            > on October 23! Please scroll down or see our <a
-                href="https://linktr.ee/monoformcinema"
-                target="_blank"
-                rel="noopener noreferrer">Linktree</a
-            > to get your tickets, and we'll see you there!
-        </p>
+        <div class="shows-text-container">
+            <p class="show-details">
+                With elements like pre-shows, collaborative recommendations,
+                after-film discussion, and occasional short films, our goal is
+                to create a communal space for film lovers to share in
+                experiential filmgoing. Whether it's a classic you didn't catch
+                in a theater or something you've never heard of, our hope is to
+                build community around film and curate films that will move you.
+            </p>
+            <p class="show-details">
+                For the 2025 season, we'll have regular screenings on the second
+                Thursday of each month at the Dormouse Theatre located at 1030
+                Portage Street. When possible we have additional screenings,
+                such as the <i>Punishment Park</i> weekend shows and <i
+                    >The People's Joker</i
+                > in our first season! Please follow to keep up with any event updates
+                and scroll down or see our <a
+                    href="https://linktr.ee/monoformcinema"
+                    target="_blank"
+                    rel="noopener noreferrer">Linktree</a
+                > to get your tickets. See you at Dormouse!
+            </p>
+        </div>
         {showFilterFn(true).map((show) => <ScreeningDetails {...show} />)}
         <SectionHeader title="Past Shows" className="past-shows" />
+        <div class="shows-text-container">
+            <p>
+                All shows listed here are for the current season. Please see
+                <a href="/archive">our archive</a>
+                for all past shows!
+            </p>
+        </div>
         {showFilterFn(false).map((show) => <ScreeningDetails {...show} />)}
         <Partners />
     </main>
@@ -64,19 +74,11 @@ const showFilterFn = (isUpcoming: boolean) =>
 </Layout>
 
 <style>
-    main {
-        margin: 0;
-        padding: 0 40px;
-        max-width: 950px;
-        color: var(--base-light);
-        font-size: 20px;
-        text-align: center;
-    }
     .show-details {
         text-align: left;
         margin-bottom: 25px;
     }
-    .show-details:last-of-type {
+    .shows-text-container {
         margin-bottom: 70px;
     }
     .link-button {
@@ -100,9 +102,6 @@ const showFilterFn = (isUpcoming: boolean) =>
     }
 
     @media only screen and (max-width: 700px) {
-        main {
-            padding: 0 20px;
-        }
         .profiles-container {
             margin-top: 0.5em;
         }

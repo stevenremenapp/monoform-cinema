@@ -1,0 +1,190 @@
+[
+    {
+        "eventMonth": "Jan",
+        "eventDate": ["Weds, January 9, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors 6:30pm, Pre-show 7:00pm, Show 7:30pm",
+        "eventTitle": "The Thing",
+        "bannerImageUrl": "/src/images/movies/2025/the-thing-banner.gif",
+        "trailerUrl": "https://youtu.be/5ftmr17M-a4?si=-FktWydRTEiPi3rl",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, Jan 9",
+                "url": ""
+            }
+        ],
+        "description": "Join us for a cold weather classic!\n\nWhen an alien being begins killing off and assuming the identities of Antarctic scientists, it's up to rough and rugged R.J. MacReady (Kurt Russell) to battle the creature as well as his paranoid colleagues. Featuring mind-boggling practical special effects from Rob Bottin and tension that can only be cut with a flame-thrower, The Thing is best viewed on the big screen with a crowd. Who knows, the person sitting next to you in the dark may not be who they seem…",
+        "films": [
+            {
+                "year": "1982",
+                "runtime": "1h 49min",
+                "director": ["John Carpenter"],
+                "writer": ["Bill Lancaster"],
+                "composer": ["Ennio Morricone", "John Carpenter"],
+                "cast": ["Kurt Russell", "Keith David", "Wilford Brimley"]
+            }
+        ],
+        "sponsor": ""
+    },
+    {
+        "eventMonth": "Feb",
+        "eventDate": ["Thurs, February 13, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors 6:30pm, Pre-show 7:00pm, Show 7:30pm",
+        "eventTitle": "The Watermelon Woman",
+        "bannerImageUrl": "/src/images/movies/2025/the-watermelon-woman-banner.jpg",
+        "trailerUrl": "https://youtu.be/mtU6Wo29VXI?si=WSAjIMweKbFQP4DR",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, Feb 13",
+                "url": ""
+            }
+        ],
+        "description": "An iconic film that seamlessly blends romance, comedy, and political themes of Black queer oppression.\n\nThe wry, incisive debut feature by Cheryl Dunye gave cinema something bracingly new and groundbreaking: a vibrant representation of Black lesbian identity by a Black lesbian filmmaker. Dunye stars as Cheryl, a video-store clerk and aspiring director whose interest in forgotten Black actresses leads her to investigate an obscure 1930s performer known as The Watermelon Woman, whose story proves to have surprising resonances with Cheryl's own life as she navigates a new relationship with a white girlfriend (Guinevere Turner). Balancing breezy romantic comedy with a serious inquiry into the history of Black and queer women in Hollywood, The Watermelon Woman slyly rewrites long-standing constructions of race and sexuality on-screen, introducing an important voice in American cinema.",
+        "films": [
+            {
+                "year": "1996",
+                "runtime": "1h 24min",
+                "director": ["Cheryl Dunye"],
+                "writer": ["Cheryl Dunye"],
+                "composer": [],
+                "cast": [
+                    "Cheryl Dunye",
+                    "Guinevere Turner",
+                    "Valarie Walker",
+                    "Lisa Marie Bronson",
+                    "Cheryl Clarke"
+                ]
+            }
+        ],
+        "sponsor": ""
+    },
+    {
+        "eventMonth": "Mar",
+        "eventDate": ["Thurs, March 13, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors 6:30pm, Pre-show 7:00pm, Show 7:30pm",
+        "eventTitle": "Portrait of a Lady on Fire",
+        "bannerImageUrl": "/src/images/movies/2025/portrait-of-a-lady-on-fire-banner.jpg",
+        "trailerUrl": "https://youtu.be/R-fQPTwma9o?si=FoU265lSvhFRPrGa",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, March 13",
+                "url": ""
+            }
+        ],
+        "description": "'Absolutely no men in sight. Just people vibing.'\n- Letterboxd review\n\nPassion quietly brews between an artist and her subject until together they create a space in which it can briefly flourish, in this sumptuous 18th century romance from one of contemporary French cinema's most acclaimed auteurs. Summoned to an isolated seaside estate on a secret assignment, Marianne must find a way to furtively paint a wedding portrait of Héloïse, who is resisting chattel marriage. What unfolds is an exchange of sustained gazes in which the two women come to know each other's gestures, expressions, and bodies with rapturous intimacy, ultimately forging a subversive creative collaboration as well as a delirious romance. Charged with a yearning that almost transcends time and space, Portrait of a Lady on Fire mines the emotional and artistic possibilities that emerge when women can freely live together and see one another in a world without men.",
+        "films": [
+            {
+                "year": "2019",
+                "runtime": "2h 11min",
+                "director": ["Céline Sciamma"],
+                "writer": ["Céline Sciamma"],
+                "composer": [],
+                "cast": ["Noémie Merlant", "Adèle Haenel"]
+            }
+        ],
+        "sponsor": ""
+    },
+    {
+        "eventMonth": "Apr",
+        "eventDate": ["Thurs, April 10, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Evening showtime TBD",
+        "eventTitle": "American Movie & Coven",
+        "bannerImageUrl": "/src/images/movies/2025/american-movie-banner.jpg",
+        "trailerUrl": "https://youtu.be/zMFZOu8rDUQ?si=rDznByEIC80drui4",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, April 10",
+                "url": ""
+            }
+        ],
+        "description": "Join us for a celebration of following your passion and making your art! American Movie is the story of filmmaker Mark Borchardt, his mission, and his dream. Spanning over two years of intense struggle with his film, his family, financial decline, and spiritual crisis, American Movie is a portrayal of ambition, obsession, excess, and one man's quest for the American Dream.\n\nMark Borchardt's Coven will follow American Movie as a double feature! Roger Ebert wrote:\n\nI saw Coven at the 1999 Sundance film festival—not because it was invited there, but because after the midnight premiere of American Movie, there wasn't a person in the theater who didn't want to stay and see Mark's 35-minute horror film, which we see him making during the course of the documentary.",
+        "films": [
+            {
+                "title": "American Movie",
+                "year": "1999",
+                "runtime": "1h 47min",
+                "director": ["Chris Smith"],
+                "writer": [],
+                "composer": [],
+                "cast": ["Mark Borchardt", "Mike Schank"]
+            },
+            {
+                "title": "Coven",
+                "year": "1997",
+                "runtime": "40min",
+                "director": ["Mark Borchardt"],
+                "writer": ["Mark Borchardt"],
+                "composer": [],
+                "cast": ["Mark Borchardt", "Mike Schank"]
+            }
+        ],
+        "year": "1999",
+        "runtime": "2h 4min",
+        "director": ["Andrzej Żuławski"],
+        "writer": ["Andrzej Żuławski", "Frederic Tuten"],
+        "composer": [],
+        "cast": ["Isabelle Adjani", "Sam Neill"],
+        "sponsor": ""
+    },
+    {
+        "eventMonth": "May",
+        "eventDate": ["Thurs, May 8, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Evening showtime TBD",
+        "eventTitle": "Come and See",
+        "bannerImageUrl": "/src/images/movies/2025/come-and-see-banner.png",
+        "trailerUrl": "https://youtu.be/UHaSQU-4wss?si=21uzmiOXKS0hs7yX",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, May 8",
+                "url": ""
+            }
+        ],
+        "description": "“And when he had opened the fourth seal, I heard the voice of the fourth beast say, 'Come and see.'”\n\nThis legendary film from Soviet director Elem Klimov is a senses-shattering plunge into the dehumanizing horrors of war. As Nazi forces encroach on his small village in what is now known as Belarus, teenage Flyora (Alexei Kravchenko, in a searing depiction of anguish) eagerly joins the Soviet resistance. Rather than the adventure and glory he envisioned, what he finds is a waking nightmare of unimaginable carnage and cruelty—rendered with a feverish, otherworldly intensity by Klimov's subjective camera work and expressionistic sound design. Nearly blocked from being made by Soviet censors, who took seven years to approve its script, Come and See is perhaps the most visceral, impossible-to-forget antiwar film ever made.",
+        "films": [
+            {
+                "year": "1985",
+                "runtime": "2h 20min",
+                "director": ["Elem Klimov"],
+                "writer": ["Ales Adamovicj", "Elem Klimov"],
+                "composer": [],
+                "cast": []
+            }
+        ],
+        "sponsor": ""
+    },
+    {
+        "eventMonth": "Jun",
+        "eventDate": ["Thurs, June 12, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Evening showtime TBD",
+        "eventTitle": "Funeral Parade of Roses",
+        "bannerImageUrl": "/src/images/movies/2025/funeral-parade-of-roses-banner.png",
+        "trailerUrl": "https://youtu.be/pdiK8e31eps?si=h1hpMXLnH8odoP0M",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, June 12",
+                "url": ""
+            }
+        ],
+        "description": "Welcome to an unapologetically queer and dizzying pop-art fantasia that evades categorization. Through a rapid-fire combination of melodrama, comedy, horror, documentary and experimental film, director Toshio Matsumoto's freewheeling approach to both genre and form results in a film that gleefully disorientates without ever feeling disjointed. Made at a point in cinema history when radically-minded filmmakers were testing, breaking and redefining the limits of good filmmaking and taste, Matsumoto's movie attacks on both fronts with an irrepressible fervor, creating a film that has retained its power to surprise, delight and shock 55 years later.\n\nAn unknown club dancer at the time, trans actor Peter (from Kurosawa's Ran) gives an astonishing Edie Sedgwick/Warhol superstar-like performance as Eddie, hostess at Bar Genet — where she's ignited a violent love-triangle with reigning drag queen Leda (Osamu Ogasawara) for the attentions of club owner Gonda (Yoshio Tsuchiya, from Seven Samurai and Yojimbo). Director Toshio Matsumoto's shattering, kaleidoscopic masterpiece is a key work of the Japanese New Wave and of queer cinema, and one of the most subversive and intoxicating films of the late 1960s.",
+        "films": [
+            {
+                "year": "1969",
+                "runtime": "1h 45min",
+                "director": ["Toshio Matsumoto"],
+                "writer": ["Toshio Matsumoto"],
+                "composer": [],
+                "cast": [
+                    "Peter (Shinnosuke Ikehata)",
+                    "Osamu Ogasawara",
+                    "Yoshio Tsuchiya"
+                ]
+            }
+        ],
+        "sponsor": ""
+    }
+]

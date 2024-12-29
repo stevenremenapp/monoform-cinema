@@ -2,25 +2,30 @@
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 import AccentBorderBox from "./AccentBorderBox.astro";
-import punishmentParkSticker from "../images/movies/punishment-park-sticker.png";
-import peoplesJokerSticker from "../images/movies/peoples-joker-sticker.png";
+import punishmentParkSticker from "../images/movies/2024/punishment-park-sticker.png";
+import peoplesJokerSticker from "../images/movies/2024/peoples-joker-sticker.png";
 import TicketsLinkButton from "./TicketsLinkButton.astro";
+import FilmDetails from "./FilmDetails.astro";
 
 interface Props {
     eventMonth: string;
     eventDate: Array<string>;
     eventLocation: string;
     eventTime: string;
-    title: string;
+    eventTitle: string;
     bannerImageUrl: string;
     trailerUrl: string;
     ticketsUrl: Array<{ dateString: string; url: string }>;
     description: string;
-    year: string;
-    runtime: string;
-    director: Array<string>;
-    writer: Array<string>;
-    cast: Array<string>;
+    films: Array<{
+        title?: string;
+        year: string;
+        runtime: string;
+        director: Array<string>;
+        writer: Array<string>;
+        cast: Array<string>;
+        composer: Array<string>;
+    }>;
     sponsor: string;
 }
 
@@ -29,33 +34,32 @@ const {
     eventDate,
     eventLocation,
     eventTime,
-    title,
+    eventTitle,
     bannerImageUrl,
     trailerUrl,
     ticketsUrl,
     description,
-    year,
-    runtime,
-    director,
-    writer,
-    cast,
+    films,
     sponsor,
 } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>(
-    "/src/images/movies/*.*"
+    "/src/images/movies/**/*.*"
 );
 if (!images[bannerImageUrl])
     throw new Error(
-        `"${bannerImageUrl}" does not exist in glob: "src/images/movies/*.*"`
+        `"${bannerImageUrl}" does not exist in glob: "/src/images/movies/**/*.*"`
     );
 ---
 
-<div id={title.toLowerCase().split(" ").join("-")} class="screening-container">
+<div
+    id={eventTitle.toLowerCase().split(" ").join("-")}
+    class="screening-container"
+>
     <div class="banner-row">
         <div class="image-container">
             <span class="event-month">{eventMonth}</span>
             {
-                title === "Punishment Park" && (
+                eventTitle === "Punishment Park" && (
                     <Image
                         src={punishmentParkSticker}
                         class="screening-sticker"
@@ -64,7 +68,7 @@ if (!images[bannerImageUrl])
                 )
             }
             {
-                title === "The People's Joker" && (
+                eventTitle === "The People's Joker" && (
                     <Image
                         src={peoplesJokerSticker}
                         class="screening-sticker"
@@ -75,11 +79,11 @@ if (!images[bannerImageUrl])
             <Image
                 class="movie-banner"
                 src={images[bannerImageUrl]()}
-                alt={`${title} movie poster.`}
+                alt={`${eventTitle} movie poster.`}
             />
         </div>
         <div class="event-details">
-            <div class="title">{title}</div>
+            <div class="eventTitle">{eventTitle}</div>
             {eventDate.map((date) => <div class="event-date">{date}</div>)}
             <div class="event-location">{eventLocation}</div>
             <div class="event-time">{eventTime}</div>
@@ -97,17 +101,7 @@ if (!images[bannerImageUrl])
     <AccentBorderBox className="show-description-row">
         <div class="description">{description}</div>
         <div class="details">
-            <div>{year}</div>
-            <div>{runtime}</div>
-            <div>
-                {`Director${director.length > 1 ? "s" : ""}: ${director}`}
-            </div>
-            {
-                writer.length ? (
-                    <div>{`Writer${writer.length > 1 ? "s" : ""}: ${writer.join(", ")}`}</div>
-                ) : null
-            }
-            {cast.length ? <div>{`Cast: ${cast.join(", ")}`}</div> : null}
+            {films.map((film) => <FilmDetails film={film} />)}
         </div>
     </AccentBorderBox>
     {
@@ -118,15 +112,15 @@ if (!images[bannerImageUrl])
         )
     }
     {
-        title === "Punishment Park" && (
+        eventTitle === "Punishment Park" && (
             <AccentBorderBox className="show-description-row africans-with-mainframes">
                 <div class="africans-with-mainframes-poster-container">
                     <Image
                         class="africans-with-mainframes-poster"
                         src={images[
-                            "/src/images/movies/africans-with-mainframes-poster.jpg"
+                            "/src/images/movies/2024/africans-with-mainframes-poster.jpg"
                         ]()}
-                        alt={`${title} movie poster.`}
+                        alt={`${eventTitle} movie poster.`}
                     />
                 </div>
                 <div class="details africans-with-mainframes">
@@ -227,7 +221,7 @@ if (!images[bannerImageUrl])
         flex: 40%;
         padding: 10px;
     }
-    .title {
+    .eventTitle {
         font-family: "Archivo Black", sans-serif;
         font-size: 2.5rem;
         text-align: left;
@@ -253,6 +247,7 @@ if (!images[bannerImageUrl])
         padding: 0.5rem 0;
         text-decoration: none;
         color: var(--base-dark);
+        text-align: center;
     }
     .actions-row .button-link:first-of-type {
         margin-right: 5px;
@@ -284,7 +279,7 @@ if (!images[bannerImageUrl])
             left: 15px;
             font-size: 3rem;
         }
-        .title {
+        .eventTitle {
             font-size: 2rem;
             margin-bottom: 10px;
         }
@@ -307,7 +302,7 @@ if (!images[bannerImageUrl])
         .banner-row {
             flex-direction: column;
         }
-        .title {
+        .eventTitle {
             text-align: center;
         }
         .image-container {
@@ -318,6 +313,7 @@ if (!images[bannerImageUrl])
             padding: 0;
             margin: 10px 0;
             align-items: center;
+            text-align: center;
         }
         .actions-row {
             flex-direction: column;

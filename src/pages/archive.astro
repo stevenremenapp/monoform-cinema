@@ -1,0 +1,41 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+import PlayingNextMarquee from "../components/PlayingNextMarquee.astro";
+import Header from "../components/Header.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import NewsletterMarquee from "../components/NewsletterMarquee.astro";
+import ScreeningDetails from "../components/ScreeningDetails.astro";
+import shows from "../data/schedules/2024-season-1.json";
+---
+
+<Layout
+    title="Monoform Cinema | Kalamazoo, MI"
+    description="Kalamazoo's new pop-up micro-cinema. Come to our monthly shows, every second Thursday at The Dormouse Theatre."
+>
+    <Header />
+    <PlayingNextMarquee />
+    <main>
+        <SectionHeader title="Season One" />
+        <p class="season-details">
+            Our first season ran every third Wednesday at The Dormouse Theatre.
+            We were fortunate enough to be able to add additional weekend shows
+            for <i>Punishment Park</i> and add a screening for Kalamazoo's theatrical
+            premiere of
+            <i>The People's Joker</i>. Check out the other screenings below!
+        </p>
+        {shows.map((show) => <ScreeningDetails {...show} />)}
+    </main>
+    <NewsletterMarquee />
+    <Footer />
+</Layout>
+
+<style>
+    main {
+        margin-top: 80px;
+    }
+
+    .season-details {
+        margin-bottom: 70px;
+    }
+</style>
