@@ -2,8 +2,6 @@
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 import AccentBorderBox from "./AccentBorderBox.astro";
-import punishmentParkSticker from "../images/movies/2024/punishment-park-sticker.png";
-import peoplesJokerSticker from "../images/movies/2024/peoples-joker-sticker.png";
 import TicketsLinkButton from "./TicketsLinkButton.astro";
 import FilmDetails from "./FilmDetails.astro";
 
@@ -61,7 +59,9 @@ if (!images[bannerImageUrl])
             {
                 eventTitle === "Punishment Park" && (
                     <Image
-                        src={punishmentParkSticker}
+                        src={images[
+                            "/src/images/movies/2024/punishment-park-sticker.png"
+                        ]()}
                         class="screening-sticker"
                         alt="Sticker image noting that Punishment Park has 3 shows, including weekend shows."
                     />
@@ -70,7 +70,9 @@ if (!images[bannerImageUrl])
             {
                 eventTitle === "The People's Joker" && (
                     <Image
-                        src={peoplesJokerSticker}
+                        src={images[
+                            "/src/images/movies/2024/peoples-joker-sticker.png"
+                        ]()}
                         class="screening-sticker"
                         alt="Sticker image noting that The People's Joker is a special additional screening."
                     />
