@@ -7,6 +7,28 @@ import SectionHeader from "../components/SectionHeader.astro";
 import NewsletterMarquee from "../components/NewsletterMarquee.astro";
 import ScreeningDetails from "../components/ScreeningDetails.astro";
 import shows from "../data/schedules/2024-season-1.json";
+
+interface Show {
+    eventMonth: string;
+    eventDate: Array<string>;
+    eventLocation: string;
+    eventTime: string;
+    eventTitle: string;
+    bannerImageUrl: string;
+    trailerUrl: string;
+    ticketsUrl: Array<{ dateString: string; url: string }>;
+    description: string;
+    films: Array<{
+        title?: string;
+        year: string;
+        runtime: string;
+        director: Array<string>;
+        writer: Array<string>;
+        cast: Array<string>;
+        composer: Array<string>;
+    }>;
+    sponsor: string;
+}
 ---
 
 <Layout
@@ -24,7 +46,7 @@ import shows from "../data/schedules/2024-season-1.json";
             premiere of
             <i>The People's Joker</i>. Check out the other screenings below!
         </p>
-        {shows.map((show) => <ScreeningDetails {...show} />)}
+        {shows.map((show: Show) => <ScreeningDetails {...show} />)}
     </main>
     <NewsletterMarquee />
     <Footer />
