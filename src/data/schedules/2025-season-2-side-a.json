@@ -3,7 +3,7 @@
         "eventMonth": "Jan",
         "eventDate": ["Thurs, January 9, 2025"],
         "eventLocation": "Dormouse Theatre",
-        "eventTime": "Doors 6:30pm, Pre-show 7:00pm, Show 7:30pm",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show at 7:30pm",
         "eventTitle": "The Thing",
         "bannerImageUrl": "/src/images/movies/2025/the-thing-banner.gif",
         "trailerUrl": "https://youtu.be/5ftmr17M-a4?si=-FktWydRTEiPi3rl",
@@ -24,13 +24,13 @@
                 "cast": ["Kurt Russell", "Keith David", "Wilford Brimley"]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": "Our pre-show will consist of 30 minutes of silent archival footage from Antarctic expeditions overlaid with Ennio Morricone's soundtrack for The Thing, followed by 30 minutes of contemporary Antarctic research and nature footage."
     },
     {
         "eventMonth": "Feb",
         "eventDate": ["Thurs, February 13, 2025"],
         "eventLocation": "Dormouse Theatre",
-        "eventTime": "Doors 6:30pm, Pre-show 7:00pm, Show 7:30pm",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show at 7:30pm",
         "eventTitle": "The Watermelon Woman",
         "bannerImageUrl": "/src/images/movies/2025/the-watermelon-woman-banner.jpg",
         "trailerUrl": "https://youtu.be/mtU6Wo29VXI?si=WSAjIMweKbFQP4DR",
@@ -40,7 +40,7 @@
                 "url": "https://www.dormousetheatre.com/events/the-watermelon-woman-film-screening"
             }
         ],
-        "description": "An iconic film that seamlessly blends romance, comedy, and political themes of Black queer oppression.\n\nThe wry, incisive debut feature by Cheryl Dunye gave cinema something bracingly new and groundbreaking: a vibrant representation of Black lesbian identity by a Black lesbian filmmaker. Dunye stars as Cheryl, a video-store clerk and aspiring director whose interest in forgotten Black actresses leads her to investigate an obscure 1930s performer known as The Watermelon Woman, whose story proves to have surprising resonances with Cheryl's own life as she navigates a new relationship with a white girlfriend (Guinevere Turner). Balancing breezy romantic comedy with a serious inquiry into the history of Black and queer women in Hollywood, The Watermelon Woman slyly rewrites long-standing constructions of race and sexuality on-screen, introducing an important voice in American cinema.",
+        "description": "An iconic film that seamlessly blends romance, comedy, and political themes of Black queer oppression.\n\nThe wry, incisive debut feature by Cheryl Dunye gave cinema something bracingly new and groundbreaking: a vibrant representation of Black lesbian identity by a Black lesbian filmmaker. Dunye stars as Cheryl, a video-store clerk and aspiring director with an interest in forgotten Black actresses. This leads her to investigate a 1930s performer known as The Watermelon Woman, whose story proves to have parallels with Cheryl's own life as she navigates a new relationship with a white girlfriend (Guinevere Turner). Balancing breezy romantic comedy with a serious inquiry into the history of Black and queer women in Hollywood, The Watermelon Woman slyly rewrites long-standing constructions of race and sexuality on-screen, introducing an important voice in American cinema.",
         "films": [
             {
                 "year": "1996",
@@ -57,7 +57,7 @@
                 ]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": "Join us at 6:30pm for our first ever two-screen pre-show! We'll be playing silent films by Black directors, writers, producers, and actors from the era that Dunye's lead character is researching (1920s - 30s) on a secondary screen, paired with contemporary short films on the main screen."
     },
     {
         "eventMonth": "Mar",
@@ -84,7 +84,7 @@
                 "cast": ["Noémie Merlant", "Adèle Haenel"]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Apr",
@@ -127,7 +127,7 @@
         "writer": ["Andrzej Żuławski", "Frederic Tuten"],
         "composer": [],
         "cast": ["Isabelle Adjani", "Sam Neill"],
-        "sponsor": ""
+        "additionalInfo": ""
     },
     {
         "eventMonth": "May",
@@ -154,7 +154,7 @@
                 "cast": []
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Jun",
@@ -185,6 +185,6 @@
                 ]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     }
 ]

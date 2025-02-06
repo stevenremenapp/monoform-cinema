@@ -24,7 +24,7 @@
                 "cast": []
             }
         ],
-        "sponsor": "Newmind Group"
+        "additionalInfo": "Thanks to Newmind Group for sponsoring this film!"
     },
     {
         "eventMonth": "Aug",
@@ -61,7 +61,7 @@
                 ]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Sept",
@@ -100,7 +100,7 @@
                 "cast": []
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Oct",
@@ -127,7 +127,7 @@
                 "cast": ["Isabelle Adjani", "Sam Neill"]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Oct",
@@ -159,7 +159,7 @@
                 ]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Nov",
@@ -192,7 +192,7 @@
                 ]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Dec",
@@ -219,6 +219,6 @@
                 "cast": ["Kitana Kiki Rodriguez", "Mya Taylor", "James Ransone"]
             }
         ],
-        "sponsor": ""
+        "additionalInfo": ""
     }
 ]

@@ -24,7 +24,7 @@ interface Props {
         cast: Array<string>;
         composer: Array<string>;
     }>;
-    sponsor: string;
+    additionalInfo: string;
 }
 
 const {
@@ -38,7 +38,7 @@ const {
     ticketsUrl,
     description,
     films,
-    sponsor,
+    additionalInfo,
 } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>(
     "/src/images/movies/**/*.*"
@@ -107,9 +107,9 @@ if (!images[bannerImageUrl])
         </div>
     </AccentBorderBox>
     {
-        sponsor && (
+        additionalInfo && (
             <AccentBorderBox className="show-description-row">
-                <div>Thanks to {sponsor} for sponsoring this film!</div>
+                <div>{additionalInfo}</div>
             </AccentBorderBox>
         )
     }
