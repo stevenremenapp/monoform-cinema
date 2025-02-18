@@ -101,7 +101,7 @@ if (!images[bannerImageUrl])
         <TicketsLinkButton ticketsUrl={ticketsUrl} eventDate={eventDate} />
     </div>
     <AccentBorderBox className="show-description-row">
-        <div class="description">{description}</div>
+        <div class="description" set:html={description} />
         <div class="details">
             {films.map((film) => <FilmDetails film={film} />)}
         </div>
@@ -109,7 +109,7 @@ if (!images[bannerImageUrl])
     {
         additionalInfo && (
             <AccentBorderBox className="show-description-row">
-                <div>{additionalInfo}</div>
+                <div set:html={additionalInfo} />
             </AccentBorderBox>
         )
     }
