@@ -21,7 +21,7 @@ const {
     <div>{year}</div>
     <div>{runtime}</div>
     <div>
-        {`Director${director.length > 1 ? "s" : ""}: ${director}`}
+        {`Director${director.length > 1 ? "s" : ""}: ${director.join(", ")}`}
     </div>
     {
         writer.length ? (

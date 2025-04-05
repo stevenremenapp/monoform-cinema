@@ -25,6 +25,7 @@ interface Props {
         composer: Array<string>;
     }>;
     additionalInfo: string;
+    isAdditionalScreening: boolean;
 }
 
 const {
@@ -39,6 +40,7 @@ const {
     description,
     films,
     additionalInfo,
+    isAdditionalScreening,
 } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>(
     "/src/images/movies/**/*.*"
@@ -68,13 +70,13 @@ if (!images[bannerImageUrl])
                 )
             }
             {
-                eventTitle === "The People's Joker" && (
+                isAdditionalScreening && (
                     <Image
                         src={images[
-                            "/src/images/movies/2024/peoples-joker-sticker.png"
+                            "/src/images/movies/added-screening-sticker.png"
                         ]()}
                         class="screening-sticker"
-                        alt="Sticker image noting that The People's Joker is a special additional screening."
+                        alt="Sticker image noting that this is a special additional screening."
                     />
                 )
             }
