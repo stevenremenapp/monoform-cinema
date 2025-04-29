@@ -1,7 +1,7 @@
 ---
 interface Props {
     eventDate: Array<string>;
-    ticketsUrl: Array<{ dateString: string; url: string, isSoldOut: boolean }>;
+    ticketsUrl: Array<{ dateString: string; url: string, isSoldOut?: boolean }>;
 }
 
 const { eventDate, ticketsUrl } = Astro.props;
@@ -90,9 +90,7 @@ lastScreeningDatePlusOneDay.setDate(lastScreeningDatePlusOneDay.getDate() + 1);
     .multi-date-container .button-link.sold-out span.multi-date-show-date {
         text-decoration: line-through;
     }
-    .multi-date-container .button-link.sold-out span.multi-date-sold-out-indicator {
-        text-decoration: none;
-    }
+
     .multi-date-buttons-container {
         width: calc(100% + 10px);
         position: absolute;

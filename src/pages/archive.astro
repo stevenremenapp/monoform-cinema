@@ -16,10 +16,10 @@ interface Show {
     eventTitle: string;
     bannerImageUrl: string;
     trailerUrl: string;
-    ticketsUrl: Array<{ dateString: string; url: string }>;
+    ticketsUrl: Array<{ dateString: string; url: string; isSoldOut?: boolean }>;
     description: string;
     films: Array<{
-        title?: string;
+        title: string;
         year: string;
         runtime: string;
         director: Array<string>;
