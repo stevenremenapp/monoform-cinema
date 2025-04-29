@@ -16,6 +16,7 @@
         "description": "A classic science fiction film brought back into the spotlight with its overt reference in the Barbie movie as well as the cultural zeitgeist around artificial intelligence. Come see 'The Ultimate Trip' like you've never seen it before!",
         "films": [
             {
+                "title": "2001: A Space Odyssey",
                 "year": "1968",
                 "runtime": "2h 29min",
                 "director": ["Stanley Kubrick"],
@@ -44,6 +45,7 @@
         "description": "This landmark documentary provides a vibrant snapshot of the 1980s through the eyes of New York City's Black and Latinx Harlem drag-ball scene. Made over seven years, Paris is Burning offers an intimate portrait of rival fashion houses, from fierce contests for trophies to house mothers offering sustenance in a world rampant with homophobia, transphobia, racism, AIDS, and poverty. Featuring legendary voguers, drag queens, and trans women, Paris is Burning brings it, celebrating the joy of movement, the force of eloquence, and the draw of community.",
         "films": [
             {
+                "title": "Paris is Burning",
                 "year": "1990",
                 "runtime": "1h 11min",
                 "director": ["Jennie Livingston"],
@@ -94,6 +96,7 @@
         "description": "In this fictional documentary, U.S. prisons are at capacity, and President Nixon declares a state of emergency. All new prisoners, most of whom are connected to the antiwar movement, are now given the choice of jail time or spending three days in Punishment Park, where they will be hunted for sport by federal authorities. The prisoners invariably choose the latter option, but learn that, between the desert heat and the brutal police officers, their chances of survival are slim.",
         "films": [
             {
+                "title": "Punishment Park",
                 "year": "1971",
                 "runtime": "1h 28min",
                 "director": ["Peter Watkins"],
@@ -122,6 +125,7 @@
         "description": "Banned upon its original release in 1981, Andrzej Żuławski's stunningly choreographed nightmare of a marriage unraveling is an experience unlike any other. Professional spy Mark (Sam Neill) returns to his West Berlin home to find his wife Anna (Isabelle Adjani, in a role that earned her Best Actress at Cannes) insistent on a divorce. As Anna's frenzied behavior becomes ever more alarming, Mark discovers a truth far more sinister than his wildest suspicions. With its pulsating score, visceral imagery, and some of the most haunting performances ever captured on screen, Possession is cinematic delirium at its most intoxicating.",
         "films": [
             {
+                "title": "Possession",
                 "year": "1981",
                 "runtime": "2h 4min",
                 "director": ["Andrzej Żuławski"],
@@ -150,6 +154,7 @@
         "description": "Kalamazoo's theatrical premiere!\n\nIn the absurdist autobiographically-inspired dark comedy, a painfully unfunny aspiring clown (Vera Drew as Joker the Harlequin) grapples with her gender identity while unsuccessfully attempting to join the ranks of Gotham City's sole comedy program in a world where comedy has been outlawed. Uniting with a ragtag team of rejects and misfits, Joker the Harlequin forms an illegal anti-comedy troupe that puts her on a collision course with the devious caped crusader controlling the city.",
         "films": [
             {
+                "title": "The People's Joker",
                 "year": "2022",
                 "runtime": "1h 32min",
                 "director": ["Vera Drew"],
@@ -183,6 +188,7 @@
         "description": "Reveries: Behind dark sunglasses, two mysterious drifters share their latest collection of thoughts, stories, and strange memories.\n\nReveries: Going Deeper: In a dystopian society, two mysterious drifters transmit pirate radio broadcasts from their underground bunker, journeying deep into their own minds…deeper than they've ever been before.",
         "films": [
             {
+                "title": "Reveries & Reveries: Going Deeper",
                 "year": "2018 & 2020",
                 "runtime": "1h 46min",
                 "director": ["Graham Mason"],
@@ -217,6 +223,7 @@
         "description": "It's Christmas Eve in Tinseltown and Sin-Dee is back on the block. Upon hearing that her pimp boyfriend hasn't been faithful during the 28 days she was locked up, Sin-Dee and her best friend, Alexandra, embark on a mission to get to the bottom of the scandalous rumor. Their odyssey leads them through various subcultures of Los Angeles, including an Armenian family dealing with their own repercussions of infidelity.",
         "films": [
             {
+                "title": "Tangerine",
                 "year": "2015",
                 "runtime": "1h 28min",
                 "director": ["Sean Baker"],
