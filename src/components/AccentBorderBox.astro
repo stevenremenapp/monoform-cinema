@@ -6,10 +6,10 @@ interface Props {
 const { className } = Astro.props;
 ---
 
-<div class={`accent-border-box ${className}`}>
+<div class:list={["accent-border-box", className]}>
     <slot />
 </div>
-<style>
+<style is:global>
     .accent-border-box {
         background-color: var(--base-dark-accent);
         box-shadow:
@@ -21,11 +21,11 @@ const { className } = Astro.props;
         padding: 20px;
         font-size: 1rem;
         text-align: left;
+    }
 
-        a {
-            font-size: 1rem;
-            color: var(--base-light);
-        }
+    .show-description-row a {
+        font-size: 1rem;
+        color: var(--base-light);
     }
     .show-description-row:not(:last-of-type) {
         margin-bottom: 20px;

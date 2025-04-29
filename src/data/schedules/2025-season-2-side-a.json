@@ -124,7 +124,7 @@
                 "cast": ["Mark Borchardt", "Mike Schank"]
             }
         ],
-        "additionalInfo": "Join us at 7:00pm for a pre-show of behind-the-scenes clips and interviews with Mark Borchardt on the main screen and a small-screen hour-long collection of DIY short films!",
+        "additionalInfo": "Join us at 7:00pm for a pre-show of behind-the-scenes clips and interviews with Mark Borchardt on the main screen and a small-screen hour-long collection of DIY short films! We'll also be projecting from VHS for the first time to present <i>Coven</i>!",
         "isAdditionalScreening": false
     },
     {
@@ -147,7 +147,12 @@
                 "title": "No Other Land",
                 "year": "2024",
                 "runtime": "1h 36min",
-                "director": ["Basel Adra", "Yuval Abraham", "Rachel Szor", "Hamdan Ballal"],
+                "director": [
+                    "Basel Adra",
+                    "Yuval Abraham",
+                    "Rachel Szor",
+                    "Hamdan Ballal"
+                ],
                 "writer": [],
                 "composer": [],
                 "cast": []
@@ -160,7 +165,7 @@
         "eventMonth": "May",
         "eventDate": ["Thurs, May 8, 2025"],
         "eventLocation": "Dormouse Theatre",
-        "eventTime": "Evening showtime TBD",
+        "eventTime": "Doors and Pre-show at 7:30pm, Show around 8:30pm",
         "eventTitle": "Come and See",
         "bannerImageUrl": "/src/images/movies/2025/come-and-see-banner.png",
         "trailerUrl": "https://youtu.be/UHaSQU-4wss",
