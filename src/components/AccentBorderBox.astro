@@ -30,6 +30,19 @@ const { className } = Astro.props;
     .show-description-row:not(:last-of-type) {
         margin-bottom: 20px;
     }
+
+    @media screen and (max-width: 650px) {
+        /* funeral-parade-of-roses-additional-info class is applied in the film's additional info JSON data  */
+        .funeral-parade-of-roses-additional-info {
+            flex-direction: column;
+        }
+
+        .funeral-parade-of-roses-additional-info img {
+            margin-right: 0 !important;
+            margin-bottom: 20px;
+        }
+    }
+
     @media screen and (max-width: 550px) {
         .show-description-row {
             flex-direction: column;
