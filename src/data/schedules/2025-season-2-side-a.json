@@ -132,7 +132,7 @@
     },
     {
         "eventMonth": "May",
-        "eventDate": ["Sun, May 4, 2025", "Tues, May 6, 2025"],
+        "eventDate": ["Sun, May 4, 2025", "Tues, May 6, 2025", "Thurs, May 22, 2025", "Fri, May 23, 2025"],
         "eventLocation": "Dormouse Theatre",
         "eventTime": "Doors and Pre-show at 7:30pm, Show around 8:30pm",
         "eventTitle": "No Other Land",
@@ -148,6 +148,14 @@
                 "dateString": "Tues, May 6",
                 "url": "https://www.dormousetheatre.com/events/no-other-land-film-screening-2",
                 "isSoldOut": true
+            },
+            {
+                "dateString": "Thurs, May 22",
+                "url": "https://www.dormousetheatre.com/events/no-other-land-film-screening-3"
+            },
+            {
+                "dateString": "Fri, May 23",
+                "url": "https://www.dormousetheatre.com/events/no-other-land-film-screening-4"
             }
         ],
         "description": "Basel Adra, a young Palestinian activist from Masafer Yatta, has been fighting his community's mass expulsion by the Israeli occupation since childhood. Basel documents the gradual erasure of Masafer Yatta, as soldiers destroy the homes of families - the largest single act of forced transfer ever carried out in the occupied West Bank. He crosses paths with Yuval, an Israeli journalist who joins his struggle, and for over half a decade they fight against the expulsion while growing closer. Their complex bond is haunted by the extreme inequality between them: Basel, living under a brutal military occupation, and Yuval, unrestricted and free. This film, by a Palestinian-Israeli collective of four young activists, was co-created during the darkest, most terrifying times in the region, as an act of creative resistance to Apartheid and a search for a path towards equality and justice.\n\n<u>DIRECTORS' STATEMENT</u>\nWe're making this film together, a Palestinian-Israeli group of activists and filmmakers, because we want to stop the ongoing expulsion of the community of Masafer Yatta, and resist the reality of Apartheid we were born into - from opposite, unequal sides. Reality around us is becoming scarier, more violent, more oppressive, every day - and we are very weak in front of it. We can only shout out something radically different, this film - which at its core, is a proposal for an alternate way Israelis and Palestinians can live in this land - not as oppressor and oppressed, but in full equality.",
@@ -167,7 +175,7 @@
                 "cast": []
             }
         ],
-        "additionalInfo": "Our pre-show features two hours of short films made by Palestinian artists split across two separate screens.",
+        "additionalInfo": "Our pre-show features two hours of short films made by Palestinian artists split across two separate screens. We'll also have resources from <a href='https://www.kzoo4peace.org/' target='_blank'>Kalamazoo Nonviolent Opponents of War</a> at the screenings.",
         "isAdditionalScreening": true
     },
     {
