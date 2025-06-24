@@ -25,8 +25,7 @@
                 "cast": []
             }
         ],
-        "additionalInfo": "Thanks to Newmind Group for sponsoring this film!",
-        "isAdditionalScreening": false
+        "additionalInfo": "Thanks to Newmind Group for sponsoring this film!"
     },
     {
         "eventMonth": "Aug",
@@ -64,8 +63,7 @@
                 ]
             }
         ],
-        "additionalInfo": "",
-        "isAdditionalScreening": false
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Sept",
@@ -106,7 +104,11 @@
             }
         ],
         "additionalInfo": "",
-        "isAdditionalScreening": false
+        "sticker": {
+            "url": "/src/images/movies/2024/punishment-park-sticker.png",
+            "altText": "Sticker noting this film has added weekend screenings.",
+            "className": "seal-sticker"
+        }
     },
     {
         "eventMonth": "Oct",
@@ -134,8 +136,7 @@
                 "cast": ["Isabelle Adjani", "Sam Neill"]
             }
         ],
-        "additionalInfo": "",
-        "isAdditionalScreening": false
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Oct",
@@ -169,7 +170,11 @@
             }
         ],
         "additionalInfo": "",
-        "isAdditionalScreening": true
+        "sticker": {
+            "url": "/src/images/movies/added-screening-sticker.png",
+            "altText": "Sticker noting this is an added screening.",
+            "className": "seal-sticker"
+        }
     },
     {
         "eventMonth": "Nov",
@@ -203,8 +208,7 @@
                 ]
             }
         ],
-        "additionalInfo": "",
-        "isAdditionalScreening": false
+        "additionalInfo": ""
     },
     {
         "eventMonth": "Dec",
@@ -232,7 +236,6 @@
                 "cast": ["Kitana Kiki Rodriguez", "Mya Taylor", "James Ransone"]
             }
         ],
-        "additionalInfo": "",
-        "isAdditionalScreening": false
+        "additionalInfo": ""
     }
 ]

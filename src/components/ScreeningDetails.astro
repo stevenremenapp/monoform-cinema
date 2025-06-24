@@ -25,7 +25,7 @@ interface Props {
         composer: Array<string>;
     }>;
     additionalInfo: string;
-    isAdditionalScreening: boolean;
+    sticker?: Record<"url" | "altText" | "className", string>;
 }
 
 const {
@@ -40,7 +40,7 @@ const {
     description,
     films,
     additionalInfo,
-    isAdditionalScreening,
+    sticker,
 } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>(
     "/src/images/movies/**/*.*"
@@ -59,24 +59,11 @@ if (!images[bannerImageUrl])
         <div class="image-container">
             <span class="event-month">{eventMonth}</span>
             {
-                eventTitle === "Punishment Park" && (
+                sticker && (
                     <Image
-                        src={images[
-                            "/src/images/movies/2024/punishment-park-sticker.png"
-                        ]()}
-                        class="screening-sticker"
-                        alt="Sticker image noting that Punishment Park has 3 shows, including weekend shows."
-                    />
-                )
-            }
-            {
-                isAdditionalScreening && (
-                    <Image
-                        src={images[
-                            "/src/images/movies/added-screening-sticker.png"
-                        ]()}
-                        class="screening-sticker"
-                        alt="Sticker image noting that this is a special additional screening."
+                        src={images[sticker.url]()}
+                        class={sticker.className}
+                        alt={sticker.altText}
                     />
                 )
             }
@@ -193,13 +180,21 @@ if (!images[bannerImageUrl])
             2px 0 0 var(--accent),
             -2px 0 0 var(--accent);
     }
-    .screening-sticker {
+    .seal-sticker {
         position: absolute;
         width: 110px;
         height: auto;
         top: -55px;
         right: 5px;
         transform: rotate(10deg);
+    }
+    .summer-of-camp-sticker {
+        position: absolute;
+        width: 210px;
+        height: auto;
+        top: -24px;
+        right: 10px;
+        transform: rotate(5deg);
     }
     img.movie-banner {
         max-width: 100%;

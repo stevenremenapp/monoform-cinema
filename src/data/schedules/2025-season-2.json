@@ -1,0 +1,547 @@
+[
+    {
+        "eventMonth": "Jan",
+        "eventDate": ["Thurs, January 9, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show at 7:30pm",
+        "eventTitle": "The Thing",
+        "bannerImageUrl": "/src/images/movies/2025/the-thing-banner.gif",
+        "trailerUrl": "https://youtu.be/5ftmr17M-a4",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, Jan 9",
+                "url": "https://www.dormousetheatre.com/events/the-thing-film-screening"
+            }
+        ],
+        "description": "Join us for a cold weather classic!\n\nWhen an alien being begins killing off and assuming the identities of Antarctic scientists, it's up to rough and rugged R.J. MacReady (Kurt Russell) to battle the creature as well as his paranoid colleagues. Featuring mind-boggling practical special effects from Rob Bottin and tension that can only be cut with a flame-thrower, <i style='display: contents'>The Thing</i> is best viewed on the big screen with a crowd. Who knows, the person sitting next to you in the dark may not be who they seem…",
+        "films": [
+            {
+                "title": "The Thing",
+                "year": "1982",
+                "runtime": "1h 49min",
+                "director": ["John Carpenter"],
+                "writer": ["Bill Lancaster"],
+                "composer": ["Ennio Morricone", "John Carpenter"],
+                "cast": ["Kurt Russell", "Keith David", "Wilford Brimley"]
+            }
+        ],
+        "additionalInfo": "Our pre-show will consist of 30 minutes of silent archival footage from Antarctic expeditions overlaid with Ennio Morricone's soundtrack for The Thing, followed by 30 minutes of contemporary Antarctic research and nature footage."
+    },
+    {
+        "eventMonth": "Feb",
+        "eventDate": ["Thurs, February 13, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show at 7:30pm",
+        "eventTitle": "The Watermelon Woman",
+        "bannerImageUrl": "/src/images/movies/2025/the-watermelon-woman-banner.jpg",
+        "trailerUrl": "https://youtu.be/mtU6Wo29VXI",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, Feb 13",
+                "url": "https://www.dormousetheatre.com/events/the-watermelon-woman-film-screening"
+            }
+        ],
+        "description": "An iconic film that seamlessly blends romance, comedy, and political themes of Black queer oppression.\n\nThe wry, incisive debut feature by Cheryl Dunye gave cinema something bracingly new and groundbreaking: a vibrant representation of Black lesbian identity by a Black lesbian filmmaker. Dunye stars as Cheryl, a video-store clerk and aspiring director with an interest in forgotten Black actresses. This leads her to investigate a 1930s performer known as The Watermelon Woman, whose story proves to have parallels with Cheryl's own life as she navigates a new relationship with a white girlfriend (Guinevere Turner). Balancing breezy romantic comedy with a serious inquiry into the history of Black and queer women in Hollywood, The Watermelon Woman slyly rewrites long-standing constructions of race and sexuality on-screen, introducing an important voice in American cinema.",
+        "films": [
+            {
+                "title": "The Watermelon Woman",
+                "year": "1996",
+                "runtime": "1h 24min",
+                "director": ["Cheryl Dunye"],
+                "writer": ["Cheryl Dunye"],
+                "composer": [],
+                "cast": [
+                    "Cheryl Dunye",
+                    "Guinevere Turner",
+                    "Valarie Walker",
+                    "Lisa Marie Bronson",
+                    "Cheryl Clarke"
+                ]
+            }
+        ],
+        "additionalInfo": "Join us at 6:30pm for our first ever two-screen pre-show! We'll be playing silent films by Black directors, writers, producers, and actors from the era that Dunye's lead character is researching (1920s - 30s) on a secondary screen, paired with contemporary short films on the main screen. We are also sharing <a href='/black_film_timeline_and_resources.pdf' target='_blank'>a Black film history resource list</a> and lists of all pre-show films at the show!"
+    },
+    {
+        "eventMonth": "Mar",
+        "eventDate": ["Thurs, March 13, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show around 7:30pm",
+        "eventTitle": "Portrait of a Lady on Fire",
+        "bannerImageUrl": "/src/images/movies/2025/portrait-of-a-lady-on-fire-banner.jpg",
+        "trailerUrl": "https://youtu.be/R-fQPTwma9o",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, March 13",
+                "url": "https://www.dormousetheatre.com/events/portrait-of-a-lady-on-fire-film-screening"
+            }
+        ],
+        "description": "'Absolutely no men in sight. Just people vibing.'\n- Letterboxd review\n\nPassion quietly brews between an artist and her subject until together they create a space in which it can briefly flourish, in this sumptuous 18th century romance from one of contemporary French cinema's most acclaimed auteurs. Summoned to an isolated seaside estate on a secret assignment, Marianne must find a way to furtively paint a wedding portrait of Héloïse, who is resisting chattel marriage. What unfolds is an exchange of sustained gazes in which the two women come to know each other's gestures, expressions, and bodies with rapturous intimacy, ultimately forging a subversive creative collaboration as well as a delirious romance. Charged with a yearning that almost transcends time and space, <i style='display: contents'>Portrait of a Lady on Fire</i> mines the emotional and artistic possibilities that emerge when women can freely live together and see one another in a world without men.",
+        "films": [
+            {
+                "title": "Portrait of a Lady on Fire",
+                "year": "2019",
+                "runtime": "2h 11min",
+                "director": ["Céline Sciamma"],
+                "writer": ["Céline Sciamma"],
+                "composer": [],
+                "cast": ["Noémie Merlant", "Adèle Haenel"]
+            }
+        ],
+        "additionalInfo": "Join us at 6:30pm for a thematically appropriate pre-show! We'll be livestreaming <a href='https://www.instagram.com/theclumsyartistic/p/DHR7oAuy0Oa/?img_index=1' target='_blank'>Annie</a> on our main screen as she draws a portrait. We're also replacing our normal written Film Favorites with Portrait of a Movie <s>on Fire</s> where folks can draw their movies. And finally, our second screen pre-show will share an hour of short films made by iconic women.\n\n<a href='https://www.instagram.com/monoformcinema/reel/DHzeLXLMuT1/' target='_blank'>Check out what it all looked like here</a>, see <a href='/images/portrait-preshow/annie-marianne-portrait.jpg' target='_blank'>Annie's final portrait</a>, and see all four movie portraits made by attendees here: <a href='/images/portrait-preshow/portrait.jpg' target='_blank'>[1]</a>, <a href='/images/portrait-preshow/the-shining.jpg' target='_blank'>[2]</a>, <a href='/images/portrait-preshow/moonrise-kingdom.jpg' target='_blank'>[3]</a>, and <a href='/images/portrait-preshow/stalker.jpg' target='_blank'>[4]</a>. Also check out the handout we had at the film: <a href='/docs/sapphic-movie-us-map.pdf' target='_blank'>Sapphic Films Made by Women and Plotted by the Location of Their Narrative</a>."
+    },
+    {
+        "eventMonth": "Apr",
+        "eventDate": ["Thurs, April 10, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 7:00pm, Show around 8:00pm",
+        "eventTitle": "American Movie & Coven",
+        "bannerImageUrl": "/src/images/movies/2025/american-movie-banner.jpg",
+        "trailerUrl": "https://youtu.be/zMFZOu8rDUQ",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, April 10",
+                "url": "https://www.dormousetheatre.com/events/american-movie-coven-film-screening"
+            }
+        ],
+        "description": "Join us for a celebration of following your passion and making your art! American Movie is the story of filmmaker Mark Borchardt, his mission, and his dream. Spanning over two years of intense struggle with his film, his family, financial decline, and spiritual crisis, American Movie is a portrayal of ambition, obsession, excess, and one man's quest for the American Dream.\n\nMark Borchardt's <i style='display: contents'>Coven</i> will follow American Movie as a double feature! Roger Ebert wrote:\n\nI saw <i style='display: contents'>Coven</i> at the 1999 Sundance film festival—not because it was invited there, but because after the midnight premiere of American Movie, there wasn't a person in the theater who didn't want to stay and see Mark's 35-minute horror film, which we see him making during the course of the documentary.",
+        "films": [
+            {
+                "title": "American Movie",
+                "year": "1999",
+                "runtime": "1h 47min",
+                "director": ["Chris Smith"],
+                "writer": [],
+                "composer": [],
+                "cast": ["Mark Borchardt", "Mike Schank"]
+            },
+            {
+                "title": "Coven",
+                "year": "1997",
+                "runtime": "40min",
+                "director": ["Mark Borchardt"],
+                "writer": ["Mark Borchardt"],
+                "composer": [],
+                "cast": ["Mark Borchardt", "Mike Schank"]
+            }
+        ],
+        "additionalInfo": "Join us at 7:00pm for a pre-show of behind-the-scenes clips and interviews with Mark Borchardt on the main screen and a small-screen hour-long collection of DIY short films! We'll also be projecting from VHS for the first time to present <i>Coven</i>!"
+    },
+    {
+        "eventMonth": "May",
+        "eventDate": [
+            "Sun, May 4, 2025",
+            "Tues, May 6, 2025",
+            "Thurs, May 22, 2025",
+            "Fri, May 23, 2025"
+        ],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 7:30pm, Show around 8:30pm",
+        "eventTitle": "No Other Land",
+        "bannerImageUrl": "/src/images/movies/2025/no-other-land-banner.jpg",
+        "trailerUrl": "https://youtu.be/jOOgJICcxu0",
+        "ticketsUrl": [
+            {
+                "dateString": "Sun, May 4",
+                "url": "https://www.dormousetheatre.com/events/no-other-land-film-screening",
+                "isSoldOut": true
+            },
+            {
+                "dateString": "Tues, May 6",
+                "url": "https://www.dormousetheatre.com/events/no-other-land-film-screening-2",
+                "isSoldOut": true
+            },
+            {
+                "dateString": "Thurs, May 22",
+                "url": "https://www.dormousetheatre.com/events/no-other-land-film-screening-3"
+            },
+            {
+                "dateString": "Fri, May 23",
+                "url": "https://www.dormousetheatre.com/events/no-other-land-film-screening-4"
+            }
+        ],
+        "description": "Basel Adra, a young Palestinian activist from Masafer Yatta, has been fighting his community's mass expulsion by the Israeli occupation since childhood. Basel documents the gradual erasure of Masafer Yatta, as soldiers destroy the homes of families - the largest single act of forced transfer ever carried out in the occupied West Bank. He crosses paths with Yuval, an Israeli journalist who joins his struggle, and for over half a decade they fight against the expulsion while growing closer. Their complex bond is haunted by the extreme inequality between them: Basel, living under a brutal military occupation, and Yuval, unrestricted and free. This film, by a Palestinian-Israeli collective of four young activists, was co-created during the darkest, most terrifying times in the region, as an act of creative resistance to Apartheid and a search for a path towards equality and justice.\n\n<u>DIRECTORS' STATEMENT</u>\nWe're making this film together, a Palestinian-Israeli group of activists and filmmakers, because we want to stop the ongoing expulsion of the community of Masafer Yatta, and resist the reality of Apartheid we were born into - from opposite, unequal sides. Reality around us is becoming scarier, more violent, more oppressive, every day - and we are very weak in front of it. We can only shout out something radically different, this film - which at its core, is a proposal for an alternate way Israelis and Palestinians can live in this land - not as oppressor and oppressed, but in full equality.",
+        "films": [
+            {
+                "title": "No Other Land",
+                "year": "2024",
+                "runtime": "1h 36min",
+                "director": [
+                    "Basel Adra",
+                    "Yuval Abraham",
+                    "Rachel Szor",
+                    "Hamdan Ballal"
+                ],
+                "writer": [],
+                "composer": [],
+                "cast": []
+            }
+        ],
+        "additionalInfo": "Our pre-show features two hours of short films made by Palestinian artists split across two separate screens. We'll also have resources from <a href='https://www.kzoo4peace.org/' target='_blank'>Kalamazoo Nonviolent Opponents of War</a> at the screenings.",
+        "sticker": {
+            "url": "/src/images/movies/added-screening-sticker.png",
+            "altText": "Sticker noting this is an added screening.",
+            "className": "seal-sticker"
+        }
+    },
+    {
+        "eventMonth": "May",
+        "eventDate": ["Thurs, May 8, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 7:30pm, Show around 8:30pm",
+        "eventTitle": "Come and See",
+        "bannerImageUrl": "/src/images/movies/2025/come-and-see-banner.png",
+        "trailerUrl": "https://youtu.be/UHaSQU-4wss",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, May 8",
+                "url": "https://www.dormousetheatre.com/events/come-and-see-film-screening"
+            }
+        ],
+        "description": "“And when he had opened the fourth seal, I heard the voice of the fourth beast say, 'Come and see.'”\n\nThis legendary film from Soviet director Elem Klimov is a senses-shattering plunge into the dehumanizing horrors of war. As Nazi forces encroach on his small village in what is now known as Belarus, teenage Flyora (Alexei Kravchenko, in a searing depiction of anguish) eagerly joins the Soviet resistance. Rather than the adventure and glory he envisioned, what he finds is a waking nightmare of unimaginable carnage and cruelty—rendered with a feverish, otherworldly intensity by Klimov's subjective camera work and expressionistic sound design. Nearly blocked from being made by Soviet censors, who took seven years to approve its script, <i style='display: contents'>Come and See</i> is perhaps the most visceral, impossible-to-forget antiwar film ever made.",
+        "films": [
+            {
+                "title": "Come and See",
+                "year": "1985",
+                "runtime": "2h 20min",
+                "director": ["Elem Klimov"],
+                "writer": ["Ales Adamovich", "Elem Klimov"],
+                "composer": [],
+                "cast": []
+            }
+        ],
+        "additionalInfo": "Our pre-show features interviews and slice of life footage from people who lived in the villages featured in <i>Come and See</i>."
+    },
+    {
+        "eventMonth": "Jun",
+        "eventDate": ["Thurs, June 12, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 7:45pm, Show around 8:45pm",
+        "eventTitle": "Funeral Parade of Roses",
+        "bannerImageUrl": "/src/images/movies/2025/funeral-parade-of-roses-banner.png",
+        "trailerUrl": "https://youtu.be/pdiK8e31eps",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, June 12",
+                "url": "https://www.dormousetheatre.com/events/funeral-parade-of-roses-film-screening"
+            }
+        ],
+        "description": "Welcome to an unapologetically queer and dizzying pop-art fantasia that evades categorization. Through a rapid-fire combination of melodrama, comedy, horror, documentary and experimental film, director Toshio Matsumoto's freewheeling approach to both genre and form results in a film that gleefully disorientates without ever feeling disjointed. Made at a point in cinema history when radically-minded filmmakers were testing, breaking and redefining the limits of good filmmaking and taste, Matsumoto's movie attacks on both fronts with an irrepressible fervor, creating a film that has retained its power to surprise, delight and shock 55 years later.\n\nAn unknown club dancer at the time, trans actor Peter (from Kurosawa's Ran) gives an astonishing Edie Sedgwick/Warhol superstar-like performance as Eddie, hostess at Bar Genet—where she's ignited a violent love triangle with reigning drag queen Leda (Osamu Ogasawara) for the attentions of club owner Gonda (Yoshio Tsuchiya, from Seven Samurai and Yojimbo). Director Toshio Matsumoto's shattering, kaleidoscopic masterpiece is a key work of the Japanese New Wave and of queer cinema, and one of the most subversive and intoxicating films of the late 1960s.",
+        "films": [
+            {
+                "title": "Funeral Parade of Roses",
+                "year": "1969",
+                "runtime": "1h 45min",
+                "director": ["Toshio Matsumoto"],
+                "writer": ["Toshio Matsumoto"],
+                "composer": [],
+                "cast": [
+                    "Peter (Shinnosuke Ikehata)",
+                    "Osamu Ogasawara",
+                    "Yoshio Tsuchiya"
+                ]
+            }
+        ],
+        "additionalInfo": "<div class='funeral-parade-of-roses-additional-info' style='display: flex; align-items: center;'><img src='/images/kpf-logo.jpg' alt='Kalamazoo Poetry Festival logo.' style='max-width: 150px; margin-right: 20px' /><div><div style='margin-bottom: 10px;'>Thanks to Kalamazoo Poetry Festival for sponsoring this film!</div><div style='margin-bottom: 10px;'>Arrive when doors open for a pre-show unlike any we've done before, thanks to our collaboration with Kalamazoo Poetry Festival. We'll have a celebration of both poetry and film, including live performances and collaborative writing of poems by attendees.</div><div>At 7:45pm doors will open and we'll run our avant-garde film pre-show. At 8:15pm performances will begin, with poetry readings from Garrett Wenger and Devin Bullmer and music from singer-songwriter Ari Stager. At 8:45pm we'll start the film!</div></div></div>"
+    },
+    {
+        "eventMonth": "July",
+        "eventDate": ["Thurs, July 10, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 7:45pm, Show at 8:45pm",
+        "eventTitle": "But I'm A Cheerleader",
+        "bannerImageUrl": "/src/images/movies/2025/but-im-a-cheerleader-banner.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=rMNq8s7Bhh8",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, July 10",
+                "url": "https://www.dormousetheatre.com/events/but-im-a-cheerleader-film-screening-summer-of-camp"
+            }
+        ],
+        "description": "To kick off our new season (and our Summer of Camp series), you can't beat this certified queer cult classic! Director Jamie Babbit said that she set out to make “a gay <i style='display: contents'>Clueless</i>,” and what she delivered is a campy satire, a sweet romantic comedy, and a sharp dismantling of gender stereotypes and the obscene practice of conversion therapy.\n\nMegan (Natasha Lyonne) is an all-American girl who daydreams about her fellow cheerleaders while kissing her football player boyfriend. She is left bewildered when her conservative parents send her to a conversion therapy camp called True Directions, staffed by “formerly gay” camp counselors Mike (RuPaul) and Mary (Cathy Moriarty). Surrounded by other queer kids for the first time, including the rebellious but intriguing Graham (Clea Duvall), Megan learns who she is and what it means to be a lesbian… even if it isn't what her parents and True Directions had in mind!",
+        "films": [
+            {
+                "title": "But I'm A Cheerleader (Director's Cut)",
+                "year": "1999",
+                "runtime": "1h 49min",
+                "director": ["Jamie Babbit"],
+                "writer": ["Brian Peterson"],
+                "composer": [],
+                "cast": [
+                    "Natasha Lyonne",
+                    "Clea Duvall",
+                    "Melanie Lynskey",
+                    "RuPaul",
+                    "Mink Stole",
+                    "Dante Basco"
+                ]
+            }
+        ],
+        "additionalInfo": "Join us at 7:45pm when doors open for summer camp crafts and activities! Decorate a bandana (with help from <a href='https://www.instagram.com/kjmitchellart/' target='_blank'>artist KJ Mitchell</a>!) and enjoy our camp-themed pre-show.",
+        "sticker": {
+            "url": "/src/images/movies/biac-summer-of-camp-sticker.png",
+            "altText": "Sticker noting this is a film in our Summer of Camp series.",
+            "className": "summer-of-camp-sticker"
+        }
+    },
+    {
+        "eventMonth": "Aug",
+        "eventDate": ["Thurs, August 14, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 7:00pm, Show at 8:00pm",
+        "eventTitle": "Starship Troopers",
+        "bannerImageUrl": "/src/images/movies/2025/starship-troopers-banner.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=zPYuV_jGk7M",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, Aug 14",
+                "url": "https://www.dormousetheatre.com/events/starship-troopers-film-screening-summer-of-camp"
+            }
+        ],
+        "description": "<i style='display: contents'>Starship Troopers</i> is one of the most misunderstood films of the 1990s, perhaps of all time. Under the guise of a patriotic sci-fi action story, director Paul Verhoeven indicts American culture as not just neo-colonial, but as neo-fascist. The film satirizes the problematic pro-war sentiment of Robert Heinlein's novel and fully leans into camp, while slyly depicting fascism's transmission through information control and propaganda.\n\nSet in the 23rd century, the story follows a young soldier named Johnny Rico and his exploits in the military of the United Citizen Federation, a worldwide government. Rico's military career progresses from recruit to non-commissioned officer and finally to officer against the backdrop of an interstellar war between mankind and an arachnoid species known only as “the Bugs.”\n\nThe only good movie is a Monoform movie! We need you all!",
+        "films": [
+            {
+                "title": "Starship Troopers",
+                "year": "1997",
+                "runtime": "2h 9min",
+                "director": ["Paul Verhoeven"],
+                "writer": ["Edward Neumeier"],
+                "composer": [],
+                "cast": [
+                    "Casper Van Dien",
+                    "Denise Richards",
+                    "Neil Patrick Harris",
+                    "Michael Ironside"
+                ]
+            }
+        ],
+        "additionalInfo": "Join us when doors open at 7:00pm for summer camp crafts and activities! Paint a rock (with help from <a href='https://www.instagram.com/kjmitchellart/' target='_blank'>artist KJ Mitchell</a>!) and enjoy our pre-show!",
+        "sticker": {
+            "url": "/src/images/movies/starship-troopers-summer-of-camp-sticker.png",
+            "altText": "Sticker noting this is a film in our Summer of Camp series.",
+            "className": "summer-of-camp-sticker"
+        }
+    },
+    {
+        "eventMonth": "Sept",
+        "eventDate": ["Thurs, September 11, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show around 7:30pm",
+        "eventTitle": "Mulholland Dr.",
+        "bannerImageUrl": "/src/images/movies/2025/mulholland-dr-banner.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=jbZJ487oJlY",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, September 11",
+                "url": "https://www.dormousetheatre.com/events/mulholland-dr-film-screening"
+            }
+        ],
+        "description": "A love story in the city of dreams… blonde Betty Elms (Naomi Watts) has only just arrived in Hollywood to become a movie star when she meets an enigmatic brunette with amnesia (Laura Harring). Meanwhile, as the two set off to solve the mystery of the second woman's identity, filmmaker Adam Kesher (Justin Theroux) runs into ominous trouble while casting his latest project. David Lynch's seductive and scary vision of Los Angeles' dream factory is one of the true masterpieces of the new millennium. A tale of love, jealousy, and revenge like no other.\n\nThis heavily surrealist mystery/neo-noir is not easily rationalized, and impossible to forget. It is a wide-open invitation to its audience to interpret its meaning, symbols, and even its sequence of events. That's why we think this is a film best enjoyed in a theatre with others - this is one you'll want to discuss immediately afterwards!",
+        "films": [
+            {
+                "title": "Mulholland Dr.",
+                "year": "2001",
+                "runtime": "2h 27min",
+                "director": ["David Lynch"],
+                "writer": ["David Lynch"],
+                "composer": ["Angelo Badalamenti"],
+                "cast": ["Naomi Watts", "Laura Harring", "Justin Theroux"]
+            }
+        ],
+        "additionalInfo": "Join us when doors open at 6:30pm for a a celebration of David Lynch's life and work! We'll have a pre-show of a variety of Lynch works, clips, and interviews on the main screen, and a collection of Lynch's short films on the secondary screen."
+    },
+    {
+        "eventMonth": "Oct",
+        "eventDate": ["Thurs, October 9, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show around 7:30pm",
+        "eventTitle": "House",
+        "bannerImageUrl": "/src/images/movies/2025/house-banner.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=7-u8s49Lv28",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, October 9",
+                "url": "https://www.dormousetheatre.com/events/house-film-screening"
+            }
+        ],
+        "description": "How to describe Nobuhiko Obayashi's indescribable 1977 movie <i style='display: contents'>House</i>? As a psychedelic ghost tale? A stream-of-consciousness bedtime story? An episode of Scooby-Doo as directed by Mario Bava? Any of the above will do for this hallucinatory head trip. Tasked by the studio with making a family horror film as Japan's answer to <i style='display: contents'>Jaws</i>, Obayashi asked his 10-year-old daughter about her nightmares, and began bringing them to life!\n\n<i style='display: contents'>House</i> follows a schoolgirl, archetypically named Gorgeous, who travels with six classmates (Prof, Melody, Kung Fu, Mac, Fantasy, and Sweet) to her ailing aunt's creaky country home and comes face-to-face with evil spirits, a demonic house cat, a bloodthirsty piano, and other surreal childhood visions of horror, all realized via mattes, animation, and collage effects. Surrounding these wild and spooky images, Obayashi wove in themes of generational divide, gender roles, and fallout from war. Equally absurd and nightmarish, <i style='display: contents'>House</i> might have been beamed to Earth from some other planet.",
+        "films": [
+            {
+                "title": "House",
+                "year": "1977",
+                "runtime": "1h 28min",
+                "director": ["Nobuhiko Obayashi"],
+                "writer": ["Chiho Katsura", "Chigumi Obayashi"],
+                "composer": [
+                    "Asei Kobayashi",
+                    "Mickie Yoshino",
+                    "and the band Godiego"
+                ],
+                "cast": [
+                    "Kimiko Ikegami",
+                    "Yōko Minamida",
+                    "Kumiko Ôba",
+                    "Miki Jinbo",
+                    "Ai Matsubara",
+                    "Masayo Miyako",
+                    "Mieko Satō",
+                    "Eriko Tanaka"
+                ]
+            }
+        ],
+        "additionalInfo": ""
+    },
+    {
+        "eventMonth": "Oct",
+        "eventDate": ["Thurs, October 30, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show around 7:30pm",
+        "eventTitle": "Devils Night Mystery Movie: XXX XXXXXX",
+        "bannerImageUrl": "/src/images/movies/2025/devils-night-mystery-movie-banner.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=-ppcYKPs5RM",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, October 30",
+                "url": "https://www.dormousetheatre.com/events/devils-night-mystery-movie-film-screening"
+            }
+        ],
+        "description": "It's Devil's Night at Monoform Cinema, and we are celebrating with a devilish mystery movie. We won't be announcing the title until just before we start the film!\n\nThe mystery movie has been described as: controversial, provocative, persuasive, stylish, grotesque, explicit, disturbing, and historical. It was publicly condemned by the Vatican upon its release, and banned in several countries. We think it's likely that this could be your only chance to see this film in a theatre (and certainly your only opportunity in a church) - and it is not currently available for streaming either!",
+        "films": [
+            {
+                "title": "XXX XXXXXX",
+                "year": "19XX",
+                "runtime": "under 2h",
+                "director": ["XXX XXXXXXX"],
+                "writer": [],
+                "composer": [],
+                "cast": ["XXXXXX XXXX", "XXXXXXX XXXXXXXX"]
+            }
+        ],
+        "additionalInfo": "Come early for our Halloween-themed pre-show on the big screen. Even better, come in a movie-themed costume to participate in our pre-show costume contest (for a small prize!)",
+        "sticker": {
+            "url": "/src/images/movies/added-screening-sticker.png",
+            "altText": "Sticker noting this is an added screening.",
+            "className": "seal-sticker"
+        }
+    },
+    {
+        "eventMonth": "Nov",
+        "eventDate": ["Thurs, November 13, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show around 7:30pm",
+        "eventTitle": "Nowhere & Bros Before",
+        "bannerImageUrl": "/src/images/movies/2025/nowhere-banner.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Yp3ZYlFShk0",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, November 13",
+                "url": "https://www.dormousetheatre.com/events/nowhere-film-screening"
+            }
+        ],
+        "description": "You can practically smell the pheromones wafting off this kaleidoscopic odyssey, which finds director Gregg Araki crossing soap-operatic elements with blasts of science fiction, indie-kid cool, and shiny pop-art subversion. On the day when the world is foretold to end, a group of terminally horny, disillusioned, zonked-out teens in Los Angeles see their lives explode in a glitter bomb of drugs, sex, death, and alien abduction. Bisexual lust, vaporizing Valley girls, sinister televangelists, nipple-ring S&M, murder by Campbell's-soup can — Araki folds it all into an anarchic orgy that brings his Teen Apocalypse Trilogy to an explosively caustic close.\n\nTo be preceded by Henry Hanson's Araki-influenced short film <i style='display: contents'>Bros Before</i>: Billy and Elijah are two trans bros who just happen to enjoy jerking off together - in a straight way! But when Billy starts dating Grace, Elijah must come to terms with his feelings for Billy and his own burgeoning homosexuality.",
+        "films": [
+            {
+                "title": "Nowhere",
+                "year": "1997",
+                "runtime": "1h 23min",
+                "director": ["Gregg Araki"],
+                "writer": ["Gregg Araki"],
+                "composer": [
+                    "Massive Attack",
+                    "Cocteau Twins",
+                    "Portishead",
+                    "Slowdive",
+                    "Radiohead",
+                    "Nine Inch Nails",
+                    "and more"
+                ],
+                "cast": [
+                    "James Duval",
+                    "Rachel True",
+                    "Christina Applegate",
+                    "Heather Graham",
+                    "John Ritter"
+                ]
+            },
+            {
+                "title": "Bros Before",
+                "year": "2022",
+                "runtime": "19min",
+                "director": ["Henry Hanson"],
+                "writer": ["Henry Hanson"],
+                "composer": [],
+                "cast": ["Radcliffe Adler", "Marten Katze", "Meadow Meyer"]
+            }
+        ],
+        "additionalInfo": ""
+    },
+    {
+        "eventMonth": "Nov",
+        "eventDate": ["Fri, November 14, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show around 7:30pm",
+        "eventTitle": "Dog Movie & Puppygirl w/ director Henry Hanson",
+        "bannerImageUrl": "/src/images/movies/2025/dog-movie-puppygirl-banner.png",
+        "trailerUrl": "https://www.youtube.com/watch?v=Tl36-c-pW3k",
+        "ticketsUrl": [
+            {
+                "dateString": "Fri, November 14",
+                "url": "https://www.dormousetheatre.com/events/dog-movie-puppygirl-film-screening-henry-hanson-double-feature-w-director-q-a"
+            }
+        ],
+        "description": "Chicago-based filmmaker and programmer Henry Hanson will be here for a double feature screening of his debut feature film, <i style='display: contents'>Dog Movie</i>, and brand-new follow up <i style='display: contents'>Puppygirl</i>. Henry has described <i style='display: contents'>Dog Movie</i> as “an improvised cringe comedy that's kinda Dogme95 with it but kinda not. Inspired by Hong Sang-Soo but came out more like Larry David.”\n\nAbout <i style='display: contents'>Dog Movie</i>: A passive-aggressive tenderqueer couple sends their household into a quiet tailspin when they adopt an elderly dog with the same name as the unemployed couch surfer they just can't seem to confront.\n\nAbout <i style='display: contents'>Puppygirl</i>: In this gonzo documentary, a semi-delusional trans woman (Milo Talwani) embarks on a shocking, bizarre, and oddly touching personal odyssey to undo years of sexual repression by performing in puppygirl fetish porn.\n\nHenry Hanson is a Chicago-based filmmaker and programmer working in the tradition of the queer underground. His self-produced, self-distributed debut short <i style='display: contents'>Bros Before</i> screened at dozens of venues internationally while gaining notoriety as an online cult hit. His first feature <i style='display: contents'>Dog Movie</i> premiered to a sold-out crowd at the Gene Siskel Film Center and went on to take home the Best Achievement in Filmmaking award from Kansas City Underground Film Festival and the Audience Choice Award from the Trans Image/Trans Experience Film Festival in Dublin. Henry also programs short films, queer pornography, and expanded cinema independently and through his job as Curator & Programs Manager at Chicago-based nonprofit Full Spectrum Features. He is an active community member in the global network of trans filmmakers and film exhibitors.",
+        "films": [
+            {
+                "title": "Dog Movie",
+                "year": "2023",
+                "runtime": "56min",
+                "director": ["Henry Hanson"],
+                "writer": ["Henry Hanson"],
+                "composer": [],
+                "cast": ["Marten Katze", "Milo Talwani", "Jessi Gaston", "Blue"]
+            },
+            {
+                "title": "Puppygirl",
+                "year": "2025",
+                "runtime": "55min",
+                "director": ["Henry Hanson"],
+                "writer": ["Henry Hanson", "Milo Talwani"],
+                "composer": [],
+                "cast": ["Milo Talwani"]
+            }
+        ],
+        "additionalInfo": "Hnery Hanson will be here in person for a Q&A after the screening!",
+        "sticker": {
+            "url": "/src/images/movies/added-screening-sticker.png",
+            "altText": "Sticker noting this is an added screening.",
+            "className": "seal-sticker"
+        }
+    },
+    {
+        "eventMonth": "Dec",
+        "eventDate": ["Thurs, December 11, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 6:30pm, Show around 7:30pm",
+        "eventTitle": "Black Christmas",
+        "bannerImageUrl": "/src/images/movies/2025/black-christmas-banner.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=l2mt1Sv6Rc8",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, December 11",
+                "url": "https://www.dormousetheatre.com/events/black-christmas-film-screening"
+            }
+        ],
+        "description": "Released just one year after Roe V. Wade, and often cited as the very first slasher film, it might surprise you to learn that Bob Clark's 1974 holiday horror film Black Christmas is overtly feminist, and explores themes of abortion, misogyny and female sexuality. Surrounded by cheery decorations and cozy Christmas lights, a phone is ringing. A small group of sorority girls have been receiving increasingly threatening and obscene phone calls. When one of the girls goes missing, both fear and frustrations arise as their concerns are not taken seriously by police. As the situation becomes more complicated, the girls must question the motives of even the men closest to them.\n\nWith standout performances by Olivia Hussey and Margot Kidder, a chilling soundscape, scenes that are still shocking and themes that are still relevant 50 years later, Black Christmas is a truly scary Christmas classic!",
+        "films": [
+            {
+                "title": "Black Christmas",
+                "year": "1974",
+                "runtime": "1h 38min",
+                "director": ["Bob Clark"],
+                "writer": ["Roy Moore"],
+                "composer": [],
+                "cast": ["Olivia Hussey", "Margot Kidder", "Keir Dullea"]
+            }
+        ],
+        "additionalInfo": ""
+    }
+]

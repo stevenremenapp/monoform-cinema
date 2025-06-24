@@ -28,7 +28,7 @@ interface Show {
         composer: Array<string>;
     }>;
     additionalInfo: string;
-    isAdditionalScreening: boolean;
+    sticker?: Record<"url" | "altText" | "className", string>;
 }
 ---
 
