@@ -188,7 +188,7 @@ if (!images[bannerImageUrl])
         right: 5px;
         transform: rotate(10deg);
     }
-    .summer-of-camp-sticker {
+    .text-sticker {
         position: absolute;
         width: 210px;
         height: auto;
@@ -271,6 +271,14 @@ if (!images[bannerImageUrl])
     }
     .details.africans-with-mainframes > div {
         margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 900px) {
+        .text-sticker {
+            width: 150px;
+            top: -24px;
+            right: 0;
+        }
     }
 
     @media screen and (max-width: 800px) {

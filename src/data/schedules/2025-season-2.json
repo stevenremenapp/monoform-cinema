@@ -280,7 +280,7 @@
         "sticker": {
             "url": "/src/images/movies/biac-summer-of-camp-sticker.png",
             "altText": "Sticker noting this is a film in our Summer of Camp series.",
-            "className": "summer-of-camp-sticker"
+            "className": "text-sticker"
         }
     },
     {
@@ -318,7 +318,7 @@
         "sticker": {
             "url": "/src/images/movies/starship-troopers-summer-of-camp-sticker.png",
             "altText": "Sticker noting this is a film in our Summer of Camp series.",
-            "className": "summer-of-camp-sticker"
+            "className": "text-sticker"
         }
     },
     {
@@ -347,7 +347,12 @@
                 "cast": ["Naomi Watts", "Laura Harring", "Justin Theroux"]
             }
         ],
-        "additionalInfo": "Join us when doors open at 6:30pm for a a celebration of David Lynch's life and work! We'll have a pre-show of a variety of Lynch works, clips, and interviews on the main screen, and a collection of Lynch's short films on the secondary screen."
+        "additionalInfo": "Join us when doors open at 6:30pm for a a celebration of David Lynch's life and work! We'll have a pre-show of a variety of Lynch works, clips, and interviews on the main screen, and a collection of Lynch's short films on the secondary screen.",
+        "sticker": {
+            "url": "/src/images/movies/david-lynch-night-sticker.png",
+            "altText": "Sticker noting this is a night in celebration of David Lynch.",
+            "className": "text-sticker"
+        }
     },
     {
         "eventMonth": "Oct",
