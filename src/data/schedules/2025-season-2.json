@@ -276,7 +276,7 @@
                 ]
             }
         ],
-        "additionalInfo": "Join us at 8:00pm when doors open for summer camp crafts and activities! Decorate a bandana (with help from <a href='https://www.instagram.com/kjmitchellart/' target='_blank'>artist KJ Mitchell</a>!) and enjoy our camp-themed pre-show.",
+        "additionalInfo": "Join us at 8:00pm when doors open for summer camp crafts and activities! Decorate a bandana (with help from <a href='https://www.instagram.com/kjmitchellart/' target='_blank'>artist KJ Mitchell</a>!) and enjoy our camp-themed pre-show. We'll also be passing out a Monoform season zine with a VHS slip cover.",
         "sticker": {
             "url": "/src/images/movies/biac-summer-of-camp-sticker.png",
             "altText": "Sticker noting this is a film in our Summer of Camp series.",
@@ -514,7 +514,7 @@
                 "cast": ["Milo Talwani"]
             }
         ],
-        "additionalInfo": "Hnery Hanson will be here in person for a Q&A after the screening!",
+        "additionalInfo": "Henry Hanson will be here in person for a Q&A after the screening!",
         "sticker": {
             "url": "/src/images/movies/added-screening-sticker.png",
             "altText": "Sticker noting this is an added screening.",
