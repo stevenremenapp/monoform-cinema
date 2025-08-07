@@ -322,6 +322,44 @@
         }
     },
     {
+        "eventMonth": "Aug",
+        "eventDate": ["Thurs, August 28, 2025"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 7:30pm, Show at 8:30pm",
+        "eventTitle": "Sorry, Baby",
+        "bannerImageUrl": "/src/images/movies/2025/sorry-baby-banner.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=Rc0jgWoZo9w",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, Aug 28",
+                "url": ""
+            }
+        ],
+        "description": "A stunning debut from writer/director/star Eva Victor.\n\n“Something bad happened to Agnes. But life goes on... for everyone around her at least.”\n\nThis is the West Michigan theatrical premiere!",
+        "films": [
+            {
+                "title": "Sorry, Baby",
+                "year": "2025",
+                "runtime": "1h 43min",
+                "director": ["Eva Victor"],
+                "writer": ["Eva Victor"],
+                "composer": [],
+                "cast": [
+                    "Eva Victor",
+                    "Naomi Ackie",
+                    "Louis Cancelmi",
+                    "Lucas Hedges"
+                ]
+            }
+        ],
+        "additionalInfo": "This movie loves cats and so do we! Join us when doors open at 7:30pm for a cat-themed pre-show!",
+        "sticker": {
+            "url": "/src/images/movies/new-release-screening-sticker.png",
+            "altText": "Sticker noting this is a new release screening.",
+            "className": "seal-sticker"
+        }
+    },
+    {
         "eventMonth": "Sept",
         "eventDate": ["Thurs, September 11, 2025"],
         "eventLocation": "Dormouse Theatre",
