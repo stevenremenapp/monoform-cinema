@@ -98,7 +98,7 @@ if (!images[bannerImageUrl])
     {
         additionalInfo && (
             <AccentBorderBox className="show-description-row">
-                <div set:html={additionalInfo} />
+                <div style={{ whiteSpace: "pre-line" }} set:html={additionalInfo} />
             </AccentBorderBox>
         )
     }
