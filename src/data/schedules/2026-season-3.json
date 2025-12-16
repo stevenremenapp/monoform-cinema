@@ -1,0 +1,35 @@
+[
+    {
+        "eventMonth": "Jan",
+        "eventDate": ["Thurs, January 8, 2026"],
+        "eventLocation": "Dormouse Theatre",
+        "eventTime": "Doors and Pre-show at 7:00pm, Show at 8:00pm",
+        "eventTitle": "The Shining",
+        "bannerImageUrl": "/src/images/movies/2026/the-shining-banner.jpg",
+        "trailerUrl": "https://www.youtube.com/watch?v=GUu2l8gb1Dw",
+        "ticketsUrl": [
+            {
+                "dateString": "Thurs, Jan 8",
+                "url": "https://www.dormousetheatre.com/events/film-screening-the-shining-1980"
+            }
+        ],
+        "description": "Stephen King's novel <i>The Shining</i>, a tale of a family isolated in a haunted hotel, is transformed here by Stanley Kubrick into a meticulously crafted exercise in overwhelming dread, and a descent into psychological terror. Few horror films have claimed as prominent a place in pop culture (and our collective subconscious) as this one, and for good reason. Anchored by two incredible performances from Jack Nicholson and Shelley Duvall as Jack and Wendy Torrance, the haunting visions in <i>The Shining</i> are brought to life with surgical precision by Kubrick's gliding camera and unnerving formal symmetry. There are images in this film that you will never forget - no matter how hard you try. A searing portrait of domestic violence set against a chilling backdrop of supernatural unease, and the inescapable truth that nowhere is safe from the horrors of the past.",
+        "films": [
+            {
+                "title": "The Shining",
+                "year": "1980",
+                "runtime": "2h 24min",
+                "director": ["Stanley Kubrick"],
+                "writer": ["Stanley Kubrick", "Stephen King", "Diane Johnson"],
+                "composer": ["Wendy Carlos", "Rachel Elkind"],
+                "cast": [
+                    "Jack Nicholson",
+                    "Shelley Duvall",
+                    "Danny Lloyd",
+                    "Scatman Crothers"
+                ]
+            }
+        ],
+        "additionalInfo": ""
+    }
+]
