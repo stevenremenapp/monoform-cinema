@@ -98,7 +98,7 @@ if (!images[bannerImageUrl])
     {
         additionalInfo && (
             <AccentBorderBox className="show-description-row">
-                <div style={{ whiteSpace: "pre-line" }} set:html={additionalInfo} />
+                <div set:html={additionalInfo} />
             </AccentBorderBox>
         )
     }
@@ -257,16 +257,16 @@ if (!images[bannerImageUrl])
     .description,
     .details {
         flex: 1;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         text-align: left;
+        white-space: pre-line;
     }
     .description {
         margin-right: 10px;
-        white-space: pre-line;
     }
     .details {
+        display: flex;
+        flex-direction: column;
         margin-left: 10px;
     }
     .details.africans-with-mainframes > div {
