@@ -50,8 +50,17 @@ interface Show {
                 >!
             </p>
             <ArchiveNavigation />
+            <SectionHeader title="2025 Shows" />
         </div>
-        {shows_2025.map((show: Show) => <ScreeningDetails {...show} />)}
+        <div class="shows-list">
+            {shows_2025.map((show: Show) => <ScreeningDetails {...show} />)}
+        </div>
+        <div class="bottom-archive-nav">
+            <ArchiveNavigation />
+            <p>
+                Or see <a href="/#upcoming-shows">our current schedule here</a>!
+            </p>
+        </div>
     </main>
     <NewsletterMarquee />
     <Footer />
@@ -62,11 +71,20 @@ interface Show {
         margin-top: 80px;
     }
 
+    main a {
+        color: var(--base-light);
+    }
+
+    :global(.shows-list .screening-container:last-child) {
+        margin-bottom: 0;
+    }
+
     .archive-intro {
         margin-bottom: 70px;
     }
 
-    .archive-intro a {
-        color: var(--base-light);
+    .bottom-archive-nav {
+        margin-top: 35px;
+        margin-bottom: 40px;
     }
 </style>
