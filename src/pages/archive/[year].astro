@@ -1,13 +1,14 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Footer from "../components/Footer.astro";
-import PlayingNextMarquee from "../components/PlayingNextMarquee.astro";
-import Header from "../components/Header.astro";
-import SectionHeader from "../components/SectionHeader.astro";
-import NewsletterMarquee from "../components/NewsletterMarquee.astro";
-import ScreeningDetails from "../components/ScreeningDetails.astro";
-import ArchiveNavigation from "../components/ArchiveNavigation.astro";
-import shows_2025 from "../data/schedules/2025-season-2.json";
+import Layout from "../../layouts/Layout.astro";
+import Footer from "../../components/Footer.astro";
+import PlayingNextMarquee from "../../components/PlayingNextMarquee.astro";
+import Header from "../../components/Header.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
+import NewsletterMarquee from "../../components/NewsletterMarquee.astro";
+import ScreeningDetails from "../../components/ScreeningDetails.astro";
+import ArchiveNavigation from "../../components/ArchiveNavigation.astro";
+import shows_2024 from "../../data/schedules/2024-season-1.json";
+import shows_2025 from "../../data/schedules/2025-season-2.json";
 
 interface Show {
     eventMonth: string;
@@ -31,6 +32,19 @@ interface Show {
     additionalInfo: string;
     sticker?: Record<"url" | "altText" | "className", string>;
 }
+
+export async function getStaticPaths() {
+    return [{ params: { year: "2025" } }, { params: { year: "2024" } }];
+}
+
+const { year } = Astro.params;
+
+const showsByYear: Record<string, Show[]> = {
+    "2024": shows_2024,
+    "2025": shows_2025,
+};
+
+const shows = showsByYear[year as string] || [];
 ---
 
 <Layout
@@ -50,8 +64,9 @@ interface Show {
                 >!
             </p>
             <ArchiveNavigation />
+            <SectionHeader title={`${year} Shows`} />
         </div>
-        {shows_2025.map((show: Show) => <ScreeningDetails {...show} />)}
+        {shows.map((show: Show) => <ScreeningDetails {...show} />)}
     </main>
     <NewsletterMarquee />
     <Footer />

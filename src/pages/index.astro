@@ -1,7 +1,7 @@
 ---
 import ScreeningDetails from "../components/ScreeningDetails.astro";
 import Layout from "../layouts/Layout.astro";
-import shows from "../data/schedules/2025-season-2.json";
+import shows from "../data/schedules/2026-season-3.json";
 import SectionHeader from "../components/SectionHeader.astro";
 import Partners from "../components/Partners.astro";
 import Footer from "../components/Footer.astro";
@@ -44,14 +44,14 @@ const showFilterFn = (isUpcoming: boolean) =>
                 build community around film and curate films that will move you.
             </p>
             <p class="show-details">
-                For the 2025 season, we'll have regular screenings on the second
-                Thursday of each month at the Dormouse Theatre located at 1030
-                Portage Street. When possible we have additional screenings,
-                such as the only <i>No Other Land</i> theatrical screenings in Kalamazoo,
-                the <i>Punishment Park</i> weekend shows, and Kalamazoo's <i
-                    >The People's Joker</i
-                > theatrical premiere! Please follow to keep up with any event updates
-                and scroll down or see our <a
+                We have regular screenings on the second Thursday of each month
+                at the Dormouse Theatre located at 1030 Portage Street. When
+                possible we have additional screenings, such as the only <i
+                    >No Other Land</i
+                > theatrical screenings in Kalamazoo, the <i>Punishment Park</i> weekend
+                shows, and Kalamazoo's <i>The People's Joker</i> theatrical premiere!
+                Please follow to keep up with any event updates and scroll down or
+                see our <a
                     href="https://linktr.ee/monoformcinema"
                     target="_blank"
                     rel="noopener noreferrer">Linktree</a
@@ -62,9 +62,8 @@ const showFilterFn = (isUpcoming: boolean) =>
         <SectionHeader title="Past Shows" className="past-shows" />
         <div class="shows-text-container">
             <p>
-                All shows listed here are for the current season. Please see
-                <a href="/archive">our archive</a>
-                for all past shows!
+                All shows listed here are for the current calendar year. Please
+                see <a href="/archive/2025">our archive</a> for all past shows!
             </p>
         </div>
         {showFilterFn(false).map((show) => <ScreeningDetails {...show} />)}

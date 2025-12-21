@@ -1,0 +1,52 @@
+<div class="archive-nav">
+    <p>Navigate our archive by year:</p>
+    <div class="archive-years">
+        <ul>
+            <li><a href="/archive/2025">2025</a></li>
+            <li><a href="/archive/2024">2024</a></li>
+        </ul>
+    </div>
+</div>
+<style>
+    .archive-nav {
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    .archive-nav,
+    .archive-years ul {
+        display: flex;
+    }
+
+    .archive-nav a {
+        color: var(--base-light);
+    }
+
+    .archive-nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .archive-nav li {
+        margin-left: 10px;
+    }
+
+    .archive-nav li:not(:last-child)::after {
+        content: " / ";
+        margin-left: 7px;
+    }
+
+    @media screen and (max-width: 500px) {
+        .archive-nav {
+            flex-direction: column;
+        }
+
+        .archive-nav li:first-of-type {
+            margin-left: 0;
+        }
+
+        .archive-years {
+            margin-top: 20px;
+        }
+    }
+</style>
