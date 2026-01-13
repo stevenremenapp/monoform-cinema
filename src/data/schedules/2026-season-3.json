@@ -30,7 +30,7 @@
                 ]
             }
         ],
-        "additionalInfo": ""
+        "additionalInfo": "Join us as we turn the Dormouse Theatre into the Overlook Hotel for one night! We'll have <a href='https://www.instagram.com/p/DTIiQWZjmQW/' target='_blank'> an axed-through door for photos</a>, our season zine available for handout, and all of our pre-show screens will be dedicated to all things Shining! Come play with us... forever... and ever... and ever..."
     },
     {
         "eventMonth": "Feb",
@@ -46,7 +46,7 @@
                 "url": "https://www.dormousetheatre.com/events/film-screening-ganja-hess-1973"
             }
         ],
-        "description": "Released 52 years before <i>Sinners</i>, Bill Gunn's revolutionary independent landmark <i>Ganja & Hess</i> strains the conventions of blaxploitation and horror through a singular avant-garde sensibility. This highly stylized, poetic, and utterly original film uses vampirism as a metaphor for black assimilation and identity, white cultural imperialism, addiction, desire, and the hypocrisies of organized religion. Duane Jones (<i>Night of the Living Dead</i>) stars as anthropologist Hess Green, who is stabbed with an ancient ceremonial dagger by his unstable assistant (Gunn), bestowing upon him the blessing of immortality and the curse of an unquenchable thirst for blood. When the assistant's beautiful and outspoken wife Ganja (Marlene Clark) comes searching for her missing husband, she and Hess form an unexpected partnership. Together, they explore just how much power blood holds.\n\nOnly available in a deeply altered cut for decades, its restoration in 2018 brought Gunn's full vision back to our screens. Supported by an incredible soundtrack from Sam Waymon (Nina Simone's brother), both Bill Gunn and <em>Ganja & Hess</em> are still ahead of their time and have inspired many artists, including Spike Lee, who calls Gunn “one of the most under-appreciated filmmakers of his time” and remade this film in 2014 (<i>Da Sweet Blood of Jesus</i>). Rap group clipping.'s 2019 album <a href='https://en.wikipedia.org/wiki/There_Existed_an_Addiction_to_Blood' target='_blank'><em>There Existed an Addiction to Blood</em></a> is also directly inspired by this film and named after a lyric from its soundtrack. Writer Tananarive Due, who executive produced <a href='https://letterboxd.com/film/horror-noire-a-history-of-black-horror/' target='_blank'><em>Horror Noire: A History of Black Horror</em></a>, frequently cites the film as a landmark and states that unlike typical Blaxploitation films of the era, it's a unique and complex take on vampirism that de-centers white Eurocentrism.",
+        "description": "Released 52 years before <i>Sinners</i>, Bill Gunn's revolutionary independent landmark <i>Ganja & Hess</i> strains the conventions of blaxploitation and horror through a singular avant-garde sensibility. This highly stylized, poetic, and utterly original film uses vampirism as a metaphor for black assimilation and identity, white cultural imperialism, addiction, desire, and the hypocrisies of organized religion. Duane Jones (<i>Night of the Living Dead</i>) stars as anthropologist Hess Green, who is stabbed with an ancient ceremonial dagger by his unstable assistant (Gunn), bestowing upon him the blessing of immortality and the curse of an unquenchable thirst for blood. When the assistant's beautiful and outspoken wife Ganja (Marlene Clark) comes searching for her missing husband, she and Hess form an unexpected partnership. Together, they explore just how much power blood holds.\n\nOnly available in deeply altered cuts for decades, its restoration in 2018 brought Gunn's full vision back to our screens. Supported by an incredible soundtrack from Sam Waymon (Nina Simone's brother), both Bill Gunn and <em>Ganja & Hess</em> are still ahead of their time and have inspired many artists, including Spike Lee, who calls Gunn “one of the most under-appreciated filmmakers of his time” and remade this film in 2014 (<i>Da Sweet Blood of Jesus</i>). Rap group clipping.'s 2019 album <a href='https://en.wikipedia.org/wiki/There_Existed_an_Addiction_to_Blood' target='_blank'><em>There Existed an Addiction to Blood</em></a> is also directly inspired by this film and named after a lyric from its soundtrack. Writer Tananarive Due, who executive produced <a href='https://letterboxd.com/film/horror-noire-a-history-of-black-horror/' target='_blank'><em>Horror Noire: A History of Black Horror</em></a>, frequently cites the film as a landmark and states that unlike typical Blaxploitation films of the era, it's a unique and complex take on vampirism that de-centers white Eurocentrism.",
         "films": [
             {
                 "title": "Ganja & Hess",
@@ -55,7 +55,12 @@
                 "director": ["Bill Gunn"],
                 "writer": ["Bill Gunn"],
                 "composer": ["Sam Waymon"],
-                "cast": ["Duane Jones", "Marlene Clark", "Bill Gunn"]
+                "cast": [
+                    "Duane Jones",
+                    "Marlene Clark",
+                    "Bill Gunn",
+                    "Sam Waymon"
+                ]
             }
         ],
         "additionalInfo": ""
