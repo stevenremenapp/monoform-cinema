@@ -2,9 +2,10 @@
 interface Props {
     eventDate: Array<string>;
     ticketsUrl: Array<{ dateString: string; url: string, isSoldOut?: boolean }>;
+    customLinkLabel?: string;
 }
 
-const { eventDate, ticketsUrl } = Astro.props;
+const { eventDate, ticketsUrl, customLinkLabel } = Astro.props;
 const lastScreeningDatePlusOneDay = new Date(eventDate[eventDate.length - 1]);
 lastScreeningDatePlusOneDay.setDate(lastScreeningDatePlusOneDay.getDate() + 1);
 ---
@@ -26,11 +27,11 @@ lastScreeningDatePlusOneDay.setDate(lastScreeningDatePlusOneDay.getDate() + 1);
             rel="noopener noreferrer"
             class={`button-link ${ticketsUrl[0].isSoldOut ? "sold-out": ""}`}
         >
-            {ticketsUrl[0].isSoldOut ? "Sold Out!" : "Get Tickets!"}
+            {ticketsUrl[0].isSoldOut ? "Sold Out!" : customLinkLabel || "Get Tickets!"}
         </a>
     ) : (
         <div class="multi-date-container">
-            <button class="button-link" id="multi-date-tickets-button">Get Tickets! <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM135 241c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 345c-9.4 9.4-24.6 9.4-33.9 0L135 241z"/></svg></button>
+            <button class="button-link" id="multi-date-tickets-button">{customLinkLabel || "Get Tickets!"} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM135 241c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 345c-9.4 9.4-24.6 9.4-33.9 0L135 241z"/></svg></button>
             <div class="multi-date-buttons-container" id="multi-date-tickets-dropdown-menu">
                 {ticketsUrl.map(ticket => (<a href={ticket.url} target="_blank" rel="noopener noreferrer" class={`button-link multi-date-button-link ${ticket.isSoldOut ? "sold-out": ""}`}><span class="multi-date-show-date">{ticket.dateString}</span>{ticket.isSoldOut ? <span class="multi-date-sold-out-indicator">(Sold Out!)</span> : null}</a>))}
             </div>

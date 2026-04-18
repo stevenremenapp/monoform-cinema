@@ -87,7 +87,11 @@ if (!images[bannerImageUrl])
             rel="noopener noreferrer"
             class="button-link">Trailer</a
         >
-        <TicketsLinkButton ticketsUrl={ticketsUrl} eventDate={eventDate} />
+        <TicketsLinkButton
+            ticketsUrl={ticketsUrl}
+            eventDate={eventDate}
+            customLinkLabel={eventTitle === "The Librarians" ? "Register!" : undefined}
+        />
     </div>
     <AccentBorderBox className="show-description-row">
         <div class="description" set:html={description} />

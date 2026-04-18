@@ -122,6 +122,39 @@
     "additionalInfo": ""
   },
   {
+    "eventMonth": "Apr",
+    "eventDate": ["Sun, April 19, 2026"],
+    "eventLocation": "Sangren Hall, Western Michigan University Main Campus",
+    "eventTime": "Doors and Pre-show at 1:00pm, Show around 1:30pm",
+    "eventTitle": "The Librarians",
+    "bannerImageUrl": "/src/images/movies/2026/the-librarians-banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Ykll4MWltsQ",
+    "ticketsUrl": [
+      {
+        "dateString": "Sun, April 19",
+        "url": "https://www.kpl.gov/event/the-librarians/"
+      }
+    ],
+    "description": "America's war on books is more than a war on words. <em>The Librarians</em>, a new feature documentary from Academy Award nominee and Peabody Award winner Kim A. Snyder.\n\nIn Texas, the Krause List targets 850 books focused on race and LGBTQIA+ stories - triggering sweeping book bans across the U.S. at an unprecedented rate. As tensions escalate, librarians connect the dots from heated school and library board meetings nationwide to lay bare the underpinnings of extremism fueling the censorship efforts. Despite facing harassment, threats, and laws aimed at criminalizing their work - the librarians' rallying cry for freedom to read is a chilling cautionary tale.",
+    "films": [
+      {
+        "title": "The Librarians",
+        "year": "2025",
+        "runtime": "1h 32min",
+        "director": ["Kim A. Snyder"],
+        "writer": [],
+        "composer": [],
+        "cast": []
+      }
+    ],
+    "additionalInfo": "This free screening is presented by the Kalamazoo Public Library and The McGinnis Reading Center and Clinic, and Monoform Cinema has curated a pre-show all about libraries and librarians in film and TV! We'll also be tabling during the pre-show from 1:00pm - 1:30pm, so come and pick up a Monoform Cinema library due date card schedule!\n\nA panel discussion will follow the screening.",
+    "sticker": {
+      "url": "/src/images/movies/added-screening-sticker.png",
+      "altText": "Sticker noting this is an added screening.",
+      "className": "seal-sticker"
+    }
+  },
+  {
     "eventMonth": "May",
     "eventDate": ["Thurs, May 14, 2026"],
     "eventLocation": "Dormouse Theatre",
