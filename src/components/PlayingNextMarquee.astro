@@ -1,57 +1,85 @@
 ---
-const filmTitle: string = "The Librarians";
-const filmPageId: string = "/#the-librarians";
-const ticketsUrl: string =
-  "https://www.kpl.gov/event/the-librarians/";
+import shows from "../data/schedules/2026-season-3.json";
+
+const now = new Date();
+const nextShow = shows
+  .filter((show) => {
+    const lastScreeningDatePlusOneDay = new Date(
+      show.eventDate[show.eventDate.length - 1]
+    );
+    lastScreeningDatePlusOneDay.setDate(
+      lastScreeningDatePlusOneDay.getDate() + 1
+    );
+    return lastScreeningDatePlusOneDay >= now;
+  })
+  .sort(
+    (a, b) =>
+      new Date(a.eventDate[0]).getTime() - new Date(b.eventDate[0]).getTime()
+  )[0];
+
+const filmTitle = nextShow?.eventTitle ?? "";
+const filmPageId = nextShow
+  ? `/#${nextShow.eventTitle.toLowerCase().split(" ").join("-")}`
+  : "";
+const isMultiDate = (nextShow?.eventDate.length ?? 0) > 1;
+const ticketsUrl = nextShow?.ticketsUrl[0]?.url ?? "";
 ---
 
-<div class="marquee">
-  <ul class="marquee__content">
-    <li>
-      <div class="list-item-container">
-        <span>Playing Next:</span><span class="italics title">{filmTitle}</span>
-        <a href={filmPageId}>More info</a>
-        <a href={ticketsUrl} target="_blank" rel="noopener noreferrer">
-          Register!
-        </a>
-        <!-- <button disabled="disabled">Tickets Soon!</button> -->
-      </div>
-    </li>
-    <li>
-      <div class="list-item-container">
-        <span>Playing Next:</span><span class="italics title">{filmTitle}</span>
-        <a href={filmPageId}>More info</a>
-        <a href={ticketsUrl} target="_blank" rel="noopener noreferrer">
-          Register!
-        </a>
-        <!-- <button disabled="disabled">Tickets Soon!</button> -->
-      </div>
-    </li>
-  </ul>
-  <!-- Mirrors the content above -->
-  <ul class="marquee__content" aria-hidden="true">
-    <li>
-      <div class="list-item-container">
-        <span>Playing Next:</span><span class="italics title">{filmTitle}</span>
-        <a href={filmPageId}>More info</a>
-        <a href={ticketsUrl} target="_blank" rel="noopener noreferrer">
-          Register!
-        </a>
-        <!-- <button disabled="disabled">Tickets Soon!</button> -->
-      </div>
-    </li>
-    <li>
-      <div class="list-item-container">
-        <span>Playing Next:</span><span class="italics title">{filmTitle}</span>
-        <a href={filmPageId}>More info</a>
-        <a href={ticketsUrl} target="_blank" rel="noopener noreferrer">
-          Register!
-        </a>
-        <!-- <button disabled="disabled">Tickets Soon!</button> -->
-      </div>
-    </li>
-  </ul>
-</div>
+<Fragment>
+  {nextShow && (
+    <div class="marquee">
+      <ul class="marquee__content">
+        <li>
+          <div class="list-item-container">
+            <span>Playing Next:</span><span class="italics title">{filmTitle}</span>
+            <a href={filmPageId}>More info</a>
+            {!isMultiDate && (
+              <a href={ticketsUrl} target="_blank" rel="noopener noreferrer">
+                Get Tickets!
+              </a>
+            )}
+          </div>
+        </li>
+        <li>
+          <div class="list-item-container">
+            <span>Playing Next:</span><span class="italics title">{filmTitle}</span>
+            <a href={filmPageId}>More info</a>
+            {!isMultiDate && (
+              <a href={ticketsUrl} target="_blank" rel="noopener noreferrer">
+                Get Tickets!
+              </a>
+            )}
+          </div>
+        </li>
+      </ul>
+      <!-- Mirrors the content above -->
+      <ul class="marquee__content" aria-hidden="true">
+        <li>
+          <div class="list-item-container">
+            <span>Playing Next:</span><span class="italics title">{filmTitle}</span>
+            <a href={filmPageId}>More info</a>
+            {!isMultiDate && (
+              <a href={ticketsUrl} target="_blank" rel="noopener noreferrer">
+                Get Tickets!
+              </a>
+            )}
+          </div>
+        </li>
+        <li>
+          <div class="list-item-container">
+            <span>Playing Next:</span><span class="italics title">{filmTitle}</span>
+            <a href={filmPageId}>More info</a>
+            {!isMultiDate && (
+              <a href={ticketsUrl} target="_blank" rel="noopener noreferrer">
+                Get Tickets!
+              </a>
+            )}
+          </div>
+        </li>
+      </ul>
+    </div>
+  )}
+</Fragment>
 
 <style>
   .marquee {

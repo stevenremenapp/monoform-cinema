@@ -11,18 +11,24 @@ import Header from "../components/Header.astro";
 import HeroSection from "../components/HeroSection.astro";
 
 const showFilterFn = (isUpcoming: boolean) =>
-    shows.filter((show) => {
-        const lastScreeningDatePlusOneDay = new Date(
-            show.eventDate[show.eventDate.length - 1]
-        );
-        lastScreeningDatePlusOneDay.setDate(
-            lastScreeningDatePlusOneDay.getDate() + 1
-        );
+    shows
+        .filter((show) => {
+            const lastScreeningDatePlusOneDay = new Date(
+                show.eventDate[show.eventDate.length - 1]
+            );
+            lastScreeningDatePlusOneDay.setDate(
+                lastScreeningDatePlusOneDay.getDate() + 1
+            );
 
-        return isUpcoming
-            ? lastScreeningDatePlusOneDay >= new Date()
-            : lastScreeningDatePlusOneDay < new Date();
-    });
+            return isUpcoming
+                ? lastScreeningDatePlusOneDay >= new Date()
+                : lastScreeningDatePlusOneDay < new Date();
+        })
+        .sort(
+            (a, b) =>
+                new Date(a.eventDate[0]).getTime() -
+                new Date(b.eventDate[0]).getTime()
+        );
 ---
 
 <Layout

@@ -182,6 +182,39 @@
     ],
     "additionalInfo": ""
   },
+    {
+    "eventMonth": "May",
+    "eventDate": ["Thurs, May 28, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show at 7:30pm, Show around 8:30pm",
+    "eventTitle": "Monofreak Night!",
+    "bannerImageUrl": "/src/images/movies/2026/monofreak-night-banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=IuSSYPLluo4",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, May 28",
+        "url": "https://www.dormousetheatre.com/events/monoform-cinema-presents-monofreak-night"
+      }
+    ],
+    "description": "The audience is calling the shots on May 28th at Monoform Cinema, at an event we're calling MonoFREAK Night! The audience will vote to watch one of 5 mystery movies curated by our team around 8:30 pm, but when doors open at 7:30pm, we'll be playing YOUR VIDEOS in our first ever audience-curated pre-show hour!\n\nFor more information on the pre-show and how to submit your own clip, <a href='https://docs.google.com/forms/d/e/1FAIpQLSd7PqHyxRdOvEbUkxiGE4XBbydyEc1gwmGavQ_5z2AGKyhZyg/viewform' target='_blank'>click here!</a>",
+    "films": [
+      {
+        "title": "Title: The audience will pick!",
+        "year": "Year: ????",
+        "runtime": "Runtime: 100 minutes or less",
+        "director": ["????"],
+        "writer": [],
+        "composer": [],
+        "cast": []
+      }
+    ],
+    "additionalInfo": "",
+        "sticker": {
+      "url": "/src/images/movies/added-screening-sticker.png",
+      "altText": "Sticker noting this is an added screening.",
+      "className": "seal-sticker"
+    }
+  },
   {
     "eventMonth": "Jun",
     "eventDate": ["Thurs, June 11, 2026"],
