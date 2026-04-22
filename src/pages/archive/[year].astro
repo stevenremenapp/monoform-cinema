@@ -33,6 +33,8 @@ interface Show {
     sticker?: Record<"url" | "altText" | "className", string>;
 }
 
+export const prerender = true;
+
 export async function getStaticPaths() {
     return [{ params: { year: "2025" } }, { params: { year: "2024" } }];
 }
