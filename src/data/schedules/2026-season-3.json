@@ -180,9 +180,9 @@
         "cast": ["Nobuko Miyamoto", "Ken Watanabe", "Tsutomo Yamazaki"]
       }
     ],
-    "additionalInfo": ""
+    "additionalInfo": "We'll have ramen at concessions so that we won't have to watch this film hungry! And KPL will be back with their table where you can check out cookbooks and movies!"
   },
-    {
+  {
     "eventMonth": "May",
     "eventDate": ["Thurs, May 28, 2026"],
     "eventLocation": "Dormouse Theatre",
@@ -196,7 +196,7 @@
         "url": "https://www.dormousetheatre.com/events/monoform-cinema-presents-monofreak-night"
       }
     ],
-    "description": "The audience is calling the shots on May 28th at Monoform Cinema, at an event we're calling MonoFREAK Night! The audience will vote to watch one of 5 mystery movies curated by our team around 8:30 pm, but when doors open at 7:30pm, we'll be playing YOUR VIDEOS in our first ever audience-curated pre-show hour!\n\nFor more information on the pre-show and how to submit your own clip, <a href='https://docs.google.com/forms/d/e/1FAIpQLSd7PqHyxRdOvEbUkxiGE4XBbydyEc1gwmGavQ_5z2AGKyhZyg/viewform' target='_blank'>click here!</a>",
+    "description": "The audience is calling the shots on May 28th at Monoform Cinema, at an event we're calling MonoFREAK Night! The audience will vote to watch one of 5 mystery movies curated by our team around 8:30 pm, but when doors open at 7:30pm, we'll be playing YOUR VIDEOS in our first ever audience-curated pre-show hour!",
     "films": [
       {
         "title": "Title: The audience will pick!",
@@ -209,7 +209,7 @@
       }
     ],
     "additionalInfo": "",
-        "sticker": {
+    "sticker": {
       "url": "/src/images/movies/added-screening-sticker.png",
       "altText": "Sticker noting this is an added screening.",
       "className": "seal-sticker"
@@ -247,6 +247,40 @@
         ]
       }
     ],
-    "additionalInfo": ""
+    "additionalInfo": "KPL will be back again, but this time with their Mobile Library! Visit them before showtime in the parking lot behind Dormouse Theatre to enter their 'Criterion Closet' and tell everyone about your favorites! They'll also have buttons of queer filmmakers available for free. Our pre-show inside the building will celebrate Black and Queer films and filmmakers."
+  },
+  {
+    "eventMonth": "July",
+    "eventDate": ["Thurs, July 9, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show/Party at 7:00pm, Show around 9:00pm",
+    "eventTitle": "I Saw the TV Glow",
+    "bannerImageUrl": "/src/images/movies/2026/i-saw-the-tv-glow-banner.webp",
+    "trailerUrl": "https://www.youtube.com/watch?v=kymDzCgPwj0",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, July 9",
+        "url": "https://www.dormousetheatre.com/events/film-screening-i-saw-the-tv-glow-2024"
+      }
+    ],
+    "description": "A primal scream echoing through the static, Jane Schoenbrun's <em>I Saw the TV Glow</em> is one part Lynchian suburban nightmare, one part nostalgic love letter to monster-of-the-week millennial-core TV shows, and fully integrated into a newly-minted queer cinema classic. Striking neon visuals suck you into this uniquely existential coming-of-age horror story, of repression and self-discovery denied.\n\nHigh-schoolers Owen (Justice Smith) and Maddy (Jack Haven) bond over their shared love of The Pink Opaque, a sci-fi/horror TV show about powerful psychically-linked teenage heroines, Isabel and Tara. When Maddy reappears in Owen's life after a long absence, she poses a question to Owen that threatens to open doors within him that he has forcefully kept shut: what if The Pink Opaque was more than a TV show?",
+    "films": [
+      {
+        "title": "I Saw the TV Glow",
+        "year": "2024",
+        "runtime": "1h 40min",
+        "director": ["Jane Schoenbrun"],
+        "writer": ["Jane Schoenbrun"],
+        "composer": [],
+        "cast": [
+          "Justice Smith",
+          "Jack Haven",
+          "Ian Foreman",
+          "Conner O'Malley",
+          "Fred Durst"
+        ]
+      }
+    ],
+    "additionalInfo": "We are celebrating our second birthday with a party! Doors will open an hour earlier at 7:00PM; more info to come!"
   }
 ]
