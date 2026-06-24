@@ -281,6 +281,217 @@
         ]
       }
     ],
-    "additionalInfo": "We are celebrating our second birthday with a party! Doors will open an hour earlier at 7:00PM; more info to come!"
+    "additionalInfo": "We are celebrating our second birthday with a party! Doors will open an hour earlier at 7:00PM. Kalamazoo Public Library will be back with their Mobile Library/Criterion Closet, we'll have crafts from local artist <a href='https://www.instagram.com/kjmitchellart/' target='_blank'>KJ Mitchell</a>, and <a href='https://www.instagram.com/radriso/' target='_blank'>Rad Riso</a> will have their open print downstairs where you can pick up a custom <i>I Saw the TV Glow</i> movie poster!"
+  },
+  {
+    "eventMonth": "Aug",
+    "eventDate": ["Thurs, August 13, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show at 7:30pm, Show at 8:30pm",
+    "eventTitle": "Miami Connection",
+    "bannerImageUrl": "/src/images/movies/2026/miami-connection-banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=tDFiqhRlKXA",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, Aug 13",
+        "url": "https://www.dormousetheatre.com/events/film-screening-miami-connection-1987"
+      }
+    ],
+    "description": "Directed by ninth-degree black belt/philosopher/author/inspirational speaker Grandmaster Y.K. Kim, beloved cult film <i>Miami Connection</i> is one of the most entertaining martial arts movies made in America that you will ever see.\n\nThe year is 1987. Motorcycle ninjas tighten their grip on Florida's narcotics trade, annihilating anyone who dares move in on their turf. Multi-national martial arts rock band Dragon Sound has had enough and embarks on a roundhouse wreck wave of crime-crushing justice in the streets of Orlando. It'll take every ounce of their blood and courage, but Dragon Sound can't stop until they've completely destroyed the drug dealers, the drunk bikers, the kill-crazy ninjas, the middle-aged thugs, the “stupid cocaine” ...and the entire <i>Miami Connection</i>.",
+    "films": [
+      {
+        "title": "Miami Connection",
+        "year": "1987",
+        "runtime": "1h 27min",
+        "director": ["Richard Park Woo-Sang"],
+        "writer": ["Richard Park Woo-Sang", "Y.K. Kim", "Joseph Diamand"],
+        "composer": [],
+        "cast": ["Y.K. Kim", "Vincent Hirsch", "Joseph Diamand"]
+      }
+    ],
+    "additionalInfo": ""
+  },
+  {
+    "eventMonth": "Sept",
+    "eventDate": ["Thurs, September 10, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show at 7:00pm, Show around 8:00pm",
+    "eventTitle": "Clue",
+    "bannerImageUrl": "/src/images/movies/2026/clue-banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=KEXdWfsKZ1k",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, September 10",
+        "url": "https://www.dormousetheatre.com/events/film-screening-clue-1985"
+      }
+    ],
+    "description": "The 40th anniversary theatrical re-release of <i>Clue</i> did not come to Kalamazoo and that must be rectified!\n\nWas it Colonel Mustard in the study with the gun? Miss Scarlet in the billiard room with the rope? Or was it Wadsworth the butler? Meet all of the notorious suspects and discover all of their foul playthings. You'll love their dastardly doings as the bodies and the laughs pile up before your eyes. A murderously funny movie based on the world-famous CLUE® board game, and brought to crackling life by an all-star cast including Tim Curry, Madeline Kahn, Christopher Lloyd, Eileen Brennan, Martin Mull, Lesley Ann Warren, Michael McKean, Colleen Camp, and more! Brought to you with all three surprise endings!",
+    "films": [
+      {
+        "title": "Clue",
+        "year": "1985",
+        "runtime": "1h 34min",
+        "director": ["Jonathan Lynn"],
+        "writer": [
+          "Jonathan Lynn",
+          "story by John Landis",
+          "based on Cluedo by Anthony E. Pratt"
+        ],
+        "composer": [],
+        "cast": [
+          "Tim Curry",
+          "Madeline Kahn",
+          "Christopher Lloyd",
+          "Eileen Brennan",
+          "Michael McKean",
+          "Martin Mull",
+          "Lesley Ann Warren",
+          "Colleen Camp"
+        ]
+      }
+    ],
+    "additionalInfo": ""
+  },
+  {
+    "eventMonth": "Oct",
+    "eventDate": ["Thurs, October 8, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show at 7:00pm, Show around 8:00pm",
+    "eventTitle": "Candyman",
+    "bannerImageUrl": "/src/images/movies/2026/candyman-banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=AFjb447gMIM",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, October 8",
+        "url": "https://www.dormousetheatre.com/events/film-screening-candyman-1992"
+      }
+    ],
+    "description": "When grad student Helen Lyne (Virginia Madsen) begins working on a thesis about urban legends, she comes across the terrifying tale of the Candyman (Tony Todd) - a vengeful, hook-handed spirit who can be summoned by saying his name five times in the mirror. As her research leads her into the bowels of Chicago's housing projects and deeper into the Candyman's world, Helen learns that some legends are best left well alone.\n\nExpertly directed by British filmmaker Bernard Rose and boasting an astounding score by composer Philip Glass, <i>Candyman</i> ingeniously reworks Clive Barker's original short story 'The Forbidden' into an intelligent, socially-conscious modern horror parable that remains as timely today as ever.",
+    "films": [
+      {
+        "title": "Candyman",
+        "year": "1992",
+        "runtime": "1h 40min",
+        "director": ["Bernard Rose"],
+        "writer": ["Bernard Rose", "story by Clive Barker"],
+        "composer": ["Philip Glass"],
+        "cast": [
+          "Tony Todd",
+          "Virginia Madsen",
+          "Xander Berkeley",
+          "Kasi Lemmons",
+          "Vanessa Estelle Williams",
+          "Ted Raimi"
+        ]
+      }
+    ],
+    "additionalInfo": ""
+  },
+  {
+    "eventMonth": "Oct",
+    "eventDate": ["Thurs, October 29, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show at 7:00pm, Show around 8:00pm",
+    "eventTitle": "Halloween Mystery 'Movie': XXXX XXX XXXXXX XXXX",
+    "bannerImageUrl": "/src/images/movies/2026/halloween-mystery-movie-banner.png",
+    "trailerUrl": "https://www.youtube.com/watch?v=BLpigA2aQls",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, October 29",
+        "url": "https://www.dormousetheatre.com/events/film-screening-halloween-mystery-movie"
+      }
+    ],
+    "description": "We love Halloween here at Monoform Cinema, and we are celebrating with our second annual mystery 'movie'. We won't be announcing the title until just before we start the film!\n\nThe mystery movie* has been described as: charming, autumnal, haunting, beautiful, spooky, whimsical, complex and iconic. It has been embraced as a modern seasonal classic, and many re-watch it every fall. One of our Monoform team members even has a tattoo inspired by it. This may be your only chance to see it in a theater!",
+    "films": [
+      {
+        "title": "XXXX XXX XXXXXX XXXX",
+        "year": "20XX",
+        "runtime": "under 2h",
+        "director": ["XXXX XXXX"],
+        "writer": [],
+        "composer": [],
+        "cast": ["XXXXXX XXXX", "XXXXXXX XXXXXXX"]
+      }
+    ],
+    "additionalInfo": "Come early for our Halloween-themed pre-show on the big screen. Even better, come in a movie-themed costume to participate in our pre-show costume contest (for a small prize!).",
+    "sticker": {
+      "url": "/src/images/movies/added-screening-sticker.png",
+      "altText": "Sticker noting this is an added screening.",
+      "className": "seal-sticker"
+    }
+  },
+  {
+    "eventMonth": "Nov",
+    "eventDate": ["Thurs, November 12, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show at 7:00pm, Show around 8:00pm",
+    "eventTitle": "On the Silver Globe",
+    "bannerImageUrl": "/src/images/movies/2026/on-the-silver-globe-banner.webp",
+    "trailerUrl": "https://www.youtube.com/watch?v=zBFRiSlcBAg",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, November 12",
+        "url": "https://www.dormousetheatre.com/events/film-screening-on-the-silver-globe-1988"
+      }
+    ],
+    "description": "Calling all fans of <i>Possession</i>!\n\n“A small group of cosmic explorers leave Earth to start a new civilization. They do not realize that within themselves they carry the end of their own dream. They die one by one, while their children revert to a primitive native culture, creating new myths and a new god.”\n\nBased on a trilogy of books written in 1901 by director Andrzej Żuławski's own grand-uncle, <i>On the Silver Globe</i> is a marvel of filmmaking and media preservation. A year into its production, filming was shut down by the Polish government and all footage, props, and costumes were ordered to be destroyed. Cast and crew hid them and the film was finished ten years later. For the missing footage, the director did his own narration, voiced over shots of modern Poland. Come see a science-fiction film like no other.",
+    "films": [
+      {
+        "title": "On the Silver Globe",
+        "year": "1988",
+        "runtime": "2h 46min",
+        "director": ["Andrzej Żuławski"],
+        "writer": ["Andrzej Żuławski"],
+        "composer": [],
+        "cast": [
+          "Andrzej Seweryn",
+          "Jerzy Trela",
+          "Grażyna Dyląg",
+          "Waldemar Kownacki",
+          "Iwona Bielska"
+        ]
+      }
+    ],
+    "additionalInfo": ""
+  },
+  {
+    "eventMonth": "Dec",
+    "eventDate": ["Thurs, December 10, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show at 7:00pm, Show around 8:00pm",
+    "eventTitle": "Nashville",
+    "bannerImageUrl": "/src/images/movies/2026/nashville-banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=QZGpaVZdGlo",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, December 10",
+        "url": "https://www.dormousetheatre.com/events/film-screening-nashville-1975"
+      }
+    ],
+    "description": "A must see for America's 250th anniversary.\n\nThis cornerstone of 1970s American moviemaking from Robert Altman is a panoramic view of the country's political and cultural landscapes, set in the nation's music capital. <i>Nashville</i> weaves the stories of twenty-four characters—from country star to wannabe to reporter to waitress—into a cinematic tapestry that is equal parts comedy, tragedy, and musical. Many members of the astonishing cast wrote their own songs and performed them live on location, which lends another layer to the film's authenticity. Altman's ability to get to the heart of American life via its eccentric byways was never put to better use than in this grand, rollicking triumph, which barrels forward to an unforgettable conclusion.",
+    "films": [
+      {
+        "title": "Nashville",
+        "year": "1975",
+        "runtime": "2h 40min",
+        "director": ["Robert Altman"],
+        "writer": ["Joan Tewkesbury"],
+        "composer": [],
+        "cast": [
+          "Lily Tomlin",
+          "Keith Carradine",
+          "Shelley Duvall",
+          "Jeff Goldblum",
+          "Ned Beatty",
+          "David Arkin",
+          "Karen Black",
+          "Ronee Blakley",
+          "Henry Gibson",
+          "Barbara Harris",
+          "Geraldine Chaplin"
+        ]
+      }
+    ],
+    "additionalInfo": ""
   }
 ]
