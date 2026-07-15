@@ -284,6 +284,46 @@
     "additionalInfo": "We are celebrating our second birthday with a party! Doors will open an hour earlier at 7:00PM. Kalamazoo Public Library will be back with their Mobile Library/Criterion Closet, we'll have crafts from local artist <a href='https://www.instagram.com/kjmitchellart/' target='_blank'>KJ Mitchell</a>, and <a href='https://www.instagram.com/radriso/' target='_blank'>Rad Riso</a> will have their open print downstairs where you can pick up a custom <i>I Saw the TV Glow</i> movie poster!"
   },
   {
+    "eventMonth": "July",
+    "eventDate": ["Thurs, July 30, 2026"],
+    "eventLocation": "Dormouse Theatre",
+    "eventTime": "Doors and Pre-show at 8:00pm, Show around 9:00pm",
+    "eventTitle": "Maddie's Secret",
+    "bannerImageUrl": "/src/images/movies/2026/maddies-secret-banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=IjfX8l5XrF8",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, July 30",
+        "url": "https://www.dormousetheatre.com/events/film-screening-maddies-secret-2026"
+      }
+    ],
+    "description": "Monoform Cinema is proud to bring John Early's directorial debut <i>Maddie's Secret</i> to Kalamazoo (in its initial theatrical run, as an exclusive screening, on Art House Day 2026!) Inspired by both Showgirls (1995) and Lifetime made-for-TV movies, this is a satirical melodrama you don't want to miss!\n\nMaddie is a plucky dishwasher who leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque — complete with an adoring husband, ride-or-die best friend and a cupboard full of woman-owned ethically-sourced chili crisp to boot — mounting professional pressures threaten to reawaken a hidden secret from her troubled past.",
+    "films": [
+      {
+        "title": "Maddie's Secret",
+        "year": "2026",
+        "runtime": "1h 38min",
+        "director": ["John Early"],
+        "writer": ["John Early"],
+        "composer": [],
+        "cast": [
+          "John Early",
+          "Kate Berlant",
+          "Eric Rahill",
+          "Connor O'Malley",
+          "Vanessa Bayer",
+          "Claudia O'Doherty"
+        ]
+      }
+    ],
+    "additionalInfo": "Join us for Kalamazoo's theatrical premiere of <i>Maddie's Secret</i>! July 30 is also Art House Theater Day, which is an annual national event that brings audiences together to celebrate all that art house theaters - and independent film - contribute to our cultural landscape. Check out this year's ambassador <a href='https://www.youtube.com/watch?v=MuR6ldewUMI target='_blank'>Boots Riley inviting you to join the cinema party</a>.",
+    "sticker": {
+      "url": "/src/images/movies/new-release-screening-sticker.png",
+      "altText": "Sticker noting this is a new release screening.",
+      "className": "seal-sticker"
+    }
+  },
+  {
     "eventMonth": "Aug",
     "eventDate": ["Thurs, August 13, 2026"],
     "eventLocation": "Dormouse Theatre",
