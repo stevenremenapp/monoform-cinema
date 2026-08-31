@@ -349,11 +349,11 @@
         "cast": ["Y.K. Kim", "Vincent Hirsch", "Joseph Diamand"]
       }
     ],
-    "additionalInfo": ""
+    "additionalInfo": "This is going to be a super fun pre-show and screening, dedicated to all things martial arts and ambitious amateur moviemaking! Kalamazoo Public Library will also be back with their Mobile Library/Criterion Closet for this screening."
   },
   {
     "eventMonth": "Sept",
-    "eventDate": ["Thurs, September 10, 2026"],
+    "eventDate": ["Thurs, September 10, 2026", "Fri, September 11, 2026"],
     "eventLocation": "Dormouse Theatre",
     "eventTime": "Doors and Pre-show at 7:00pm, Show around 8:00pm",
     "eventTitle": "Clue",
@@ -363,6 +363,10 @@
       {
         "dateString": "Thurs, September 10",
         "url": "https://www.dormousetheatre.com/events/film-screening-clue-1985"
+      },
+      {
+        "dateString": "Fri, September 11",
+        "url": "https://www.dormousetheatre.com/events/friday-night-film-screening-clue-1986"
       }
     ],
     "description": "The 40th anniversary theatrical re-release of <i>Clue</i> did not come to Kalamazoo and that must be rectified!\n\nWas it Colonel Mustard in the study with the gun? Miss Scarlet in the billiard room with the rope? Or was it Wadsworth the butler? Meet all of the notorious suspects and discover all of their foul playthings. You'll love their dastardly doings as the bodies and the laughs pile up before your eyes. A murderously funny movie based on the world-famous CLUE® board game, and brought to crackling life by an all-star cast including Tim Curry, Madeline Kahn, Christopher Lloyd, Eileen Brennan, Martin Mull, Lesley Ann Warren, Michael McKean, Colleen Camp, and more! Brought to you with all three surprise endings!",
@@ -390,7 +394,12 @@
         ]
       }
     ],
-    "additionalInfo": ""
+    "additionalInfo": "With the news of Tim Curry's death, we have added an additional screening on Friday and will dedicate our entire pre-show to his work. There's enough screwball humor and fast jokes to require two viewings so come to both screenings, or catch a rare weekend Monoform Cinema screening!",
+    "sticker": {
+      "url": "/src/images/movies/2026/clue-sticker.png",
+      "altText": "Sticker noting this film has an added Friday screening.",
+      "className": "seal-sticker"
+    }
   },
   {
     "eventMonth": "Oct",
