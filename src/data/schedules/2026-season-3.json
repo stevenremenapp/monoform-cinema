@@ -362,7 +362,8 @@
     "ticketsUrl": [
       {
         "dateString": "Thurs, September 10",
-        "url": "https://www.dormousetheatre.com/events/film-screening-clue-1985"
+        "url": "https://www.dormousetheatre.com/events/film-screening-clue-1985",
+        "isSoldOut": true
       },
       {
         "dateString": "Fri, September 11",
