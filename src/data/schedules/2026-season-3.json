@@ -505,6 +505,41 @@
     "additionalInfo": "<div class='funeral-parade-of-roses-additional-info' style='display: flex; align-items: center;'><img src='/images/kpf-logo.jpg' alt='Kalamazoo Poetry Collective logo.' style='max-width: 150px; margin-right: 20px' /><div><div style='margin-bottom: 10px;'>Thanks to Kalamazoo Poetry Collective for sponsoring this film!</div><div style='margin-bottom: 10px;'>Arrive when doors open for a pre-show that mixes poetry and film, just like <em>On the Silver Globe</em>! The first half hour of the pre-show will be from us, and then, thanks to our collaboration with Kalamazoo Poetry Collective, we'll have live performances and collaborative writing of poems by attendees.</div></div></div>"
   },
   {
+    "eventMonth": "Nov",
+    "eventDate": ["Thurs, November 19, 2026"],
+    "eventLocation": "KP Cinemas",
+    "eventTime": "Pre-show at 7:30pm, Show at 8:00pm",
+    "eventTitle": "The History of Concrete",
+    "bannerImageUrl": "/src/images/movies/2026/the-history-of-concrete-banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=O05arcJjOd0",
+    "ticketsUrl": [
+      {
+        "dateString": "Thurs, November 19",
+        "url": "https://www.kpcinemas.com/movie/28150?date=2026-11-19"
+      }
+    ],
+    "description": "Join us at KP Cinemas for the Kalamazoo theatrical premiere of one of 2026's most talked-about documentaries!\n\nAfter wrapping up <i>How To with John Wilson</i>, documentarian John Wilson set out to make a movie about concrete, the most widely used building material on Earth. Hoping to sell it, he follows the industry-approved Hallmark movie formula, and the project soon becomes something much stranger. Shot in Wilson's signature style of overheard conversations and unlikely New York City street footage, and scored by electronic music pioneer Suzanne Ciani, Wilson's feature debut uses a sidewalk as the starting point for a funny, surprising, and poignant meditation on art, commerce, life, and death.",
+    "films": [
+      {
+        "title": "The History of Concrete",
+        "year": "2026",
+        "runtime": "1h 41min",
+        "director": ["John Wilson"],
+        "writer": ["John Wilson"],
+        "composer": ["Suzanne Ciani"],
+        "cast": [
+          "John Wilson",
+          "Michael Imperioli",
+          "Nathan Fielder",
+          "Timothée Chalamet",
+          "Josh Safdie",
+          "Ronald Bronstein"
+        ]
+      }
+    ],
+    "additionalInfo": ""
+  },
+  {
     "eventMonth": "Dec",
     "eventDate": ["Thurs, December 10, 2026"],
     "eventLocation": "Dormouse Theatre",
@@ -558,7 +593,7 @@
         "url": ""
       }
     ],
-    "description": "Eight-year-old Kevin McCallister wakes up to find that his family has accidentally left for Paris without him, and his Christmas wish has come true: he's finally home alone. But when a pair of bumbling burglars set their sights on the McCallister house, Kevin turns his home into a booby-trapped fortress of paint cans, micro machines, and blowtorches. Written by John Hughes, directed by Chris Columbus, and scored by John Williams, <i>Home Alone</i> is a slapstick holiday classic.\n\nSpend the day after Christmas with us and keep the change, ya filthy animals.",
+    "description": "Spend the day after Christmas with us and keep the change, ya filthy animals.\n\nEight-year-old Kevin McCallister wakes up to find that his family has accidentally left for Paris without him, and his Christmas wish has come true: he's finally home alone. But when a pair of bumbling burglars set their sights on the McCallister house, Kevin turns his home into a booby-trapped fortress of paint cans, micro machines, and blowtorches. Written by John Hughes, directed by Chris Columbus, and scored by John Williams, <i>Home Alone</i> is a slapstick holiday classic.",
     "films": [
       {
         "title": "Home Alone",
