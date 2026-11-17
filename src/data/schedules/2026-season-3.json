@@ -583,14 +583,14 @@
     "eventMonth": "Dec",
     "eventDate": ["Sat, December 26, 2026"],
     "eventLocation": "Dormouse Theatre",
-    "eventTime": "Event time TBD",
+    "eventTime": "Doors and Pre-show at 6:00pm, Show around 7:00pm",
     "eventTitle": "Home Alone",
     "bannerImageUrl": "/src/images/movies/2026/home-alone-banner.webp",
     "trailerUrl": "https://www.youtube.com/watch?v=dzdpqRGA1qc",
     "ticketsUrl": [
       {
         "dateString": "Sat, December 26",
-        "url": ""
+        "url": "https://www.dormousetheatre.com/events/home-alone-film-screening"
       }
     ],
     "description": "Spend the day after Christmas with us and keep the change, ya filthy animals.\n\nEight-year-old Kevin McCallister wakes up to find that his family has accidentally left for Paris without him, and his Christmas wish has come true: he's finally home alone. But when a pair of bumbling burglars set their sights on the McCallister house, Kevin turns his home into a booby-trapped fortress of paint cans, micro machines, and blowtorches. Written by John Hughes, directed by Chris Columbus, and scored by John Williams, <i>Home Alone</i> is a slapstick holiday classic.",
