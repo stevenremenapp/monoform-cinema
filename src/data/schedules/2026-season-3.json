@@ -617,6 +617,11 @@
         ]
       }
     ],
-    "additionalInfo": "This show will be a day-after-Christmas pajama party! Arrive in pajamas, or however else you feel comfortable."
+    "additionalInfo": "This show will be a day-after-Christmas pajama party! Arrive in pajamas, or however else you feel comfortable.",
+    "sticker": {
+      "url": "/src/images/movies/added-screening-sticker.png",
+      "altText": "Sticker noting this is an added screening.",
+      "className": "seal-sticker"
+    }
   }
 ]
