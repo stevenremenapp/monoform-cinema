@@ -537,7 +537,12 @@
         ]
       }
     ],
-    "additionalInfo": ""
+    "additionalInfo": "",
+    "sticker": {
+      "url": "/src/images/movies/new-release-screening-sticker.png",
+      "altText": "Sticker noting this is a new release screening.",
+      "className": "seal-sticker"
+    }
   },
   {
     "eventMonth": "Dec",
